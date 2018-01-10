@@ -1,0 +1,117 @@
+/*
+Theme Name: Uncode Child
+Description: Child theme for Uncode theme
+Author: Undsgn™
+Author URI: http://www.undsgn.com
+Template: uncode
+Version: 1.0.0
+Text Domain: uncode
+*/
+
+/* JELLY SHOP CUSTOM UPDATES */
+.style-color-wayh-bg {
+	background-color: #aaa;
+}
+.style-light input[name="save_address"], .style-light input[name="save_account_details"], .style-light input[name="login"], .style-light input[name="register"] {
+    margin: 30px 10px 0 0;
+    background: #8fb1dd;
+    color: #000;
+}
+
+.main-wrapper a.edit {
+	color: dodgerblue;
+}
+.main-wrapper a.edit:hover {
+	color: #8fb1dd;
+}
+.style-light .btn-default, .style-dark .style-light.style-override .btn-default, .style-dark .style-light .btn-default {
+    background: #8fb1dd !important;
+    color: #000 !important;
+	border: #8fb1dd !important;
+}
+.single_add_to_cart_button.button.alt {
+    background: #8fb1dd;
+    color: #000;
+	border: #8fb1dd !important;
+}	
+.single_add_to_cart_button.button.alt:hover {
+	background: dodgerblue !important;
+	color: #fff !important;
+	border: dodgerblue !important;	
+}
+.style-light input[name="save_address"]:hover, .style-light input[name="apply_coupon"]:hover, .style-light input[name="update_cart"]:hover, .style-light input[name="save_account_details"]:hover, .style-light input[name="login"]:hover, .style-light input[name="register"]:hover {
+	background: dodgerblue !important;
+	color: #fff !important;
+}
+#place_order {
+	margin-top: 20px !important;
+	width: 100%;
+	height: 60px;
+	font-size: 16px;
+}	
+#place_order:hover {
+	background: dodgerblue !important;
+	color: #fff !important;
+}
+.checkout-button.btn.btn-default.alt.wc-forward {
+	width: 100%;
+	height: 60px;
+}
+.checkout-button.btn.btn-default.alt.wc-forward:hover
+{
+	background: dodgerblue !important;
+	color: #fff !important;
+	border: dodgerblue !important;	
+}
+.button.wc-forward.btn-link {
+  	color: dodgerblue;
+	font-size: 20px;
+}
+
+.checkout-button.btn.btn-default.alt.wc-forward {	
+	line-height: 36px;
+}
+.style-light a {
+	font-size: 16px;
+}	
+
+a.checkmyorder {
+	color: dodgerblue;
+	font-size: 24px;
+}
+#account_password_field{
+	display: inline-block;
+}
+
+:not(.tmb-overlay-showed).tmb-overlay-anim.tmb .t-entry-visual:hover .t-entry-visual-overlay,
+:not(.tmb-overlay-showed).tmb-overlay-anim.tmb .t-entry-visual:focus .t-entry-visual-overlay {
+	opacity: 0.02;
+	color: orange;
+}
+.tmb-light.tmb-color-addcart, .tmb-light.tmb-woocommerce.tmb .t-entry-visual .add-to-cart-overlay a {
+	opacity: 0;
+}
+/* product image hover */
+.tmb .t-entry-visual .t-overlay-text .t-entry {
+	text-shadow: 1px 1px 3px #555;
+}
+.tmb .t-entry-visual .t-overlay-text .t-entry > *:first-child{
+	font-weight: 400;
+}
+.small-notification {
+	font-size: 13px;
+}
+.btn-login, .btn-coupon {
+	background-color: #f7f7f7;
+	border-color: #eaeaea;
+	margin-left: 15px;
+}
+.btn-login:hover, .btn-coupon:hover {
+	background-color: dodgerblue;
+	color: #fff !important;
+}
+.mb-board .btn-box-right .btn {
+	padding: 8px 25px !important;
+}
+
+

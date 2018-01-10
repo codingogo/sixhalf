@@ -1,0 +1,12 @@
+1184.120 (1) Opened log file at time: Sun, 24 Sep 2017 16:43:04 +0000 on http://sixandahalf.co
+1184.121 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.8 WP: 4.8.2 PHP: 7.0.0p1 (apache2handler, Linux uws7-016.cafe24.com 3.10.0-514.21.2.el7.x86_64 #1 SMP Tue Jun 20 12:24:47 UTC 2017 x86_64) MySQL: 10.1.13 WPLANG: ko_KR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 66.8M | 64M) multisite: N openssl: OpenSSL 1.0.2d 9 Jul 2015 mcrypt: Y LANG: ko_KR.UTF-8 ZipArchive::addFile: Y
+1184.122 (1) Free space on disk containing Updraft's temporary directory: 530575.1 MB
+1184.123 (1) It looks like WordPress's scheduler has started multiple instances of this resumption
+1184.126 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1506271381.2, time_now=1506271384.2, diff=3, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+1184.127 (1) Rescheduling resumption 2: moving to 300 seconds from now (1506271684)
+1184.129 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 0 = 300
+3250.679 (2) Opened log file at time: Sun, 24 Sep 2017 17:17:30 +0000 on http://sixandahalf.co
+3250.680 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.8 WP: 4.8.2 PHP: 7.0.0p1 (apache2handler, Linux uws7-016.cafe24.com 3.10.0-514.21.2.el7.x86_64 #1 SMP Tue Jun 20 12:24:47 UTC 2017 x86_64) MySQL: 10.1.13 WPLANG: ko_KR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 65.6M | 52M) multisite: N openssl: OpenSSL 1.0.2d 9 Jul 2015 mcrypt: Y LANG: ko_KR.UTF-8 ZipArchive::addFile: Y
+3250.680 (2) Free space on disk containing Updraft's temporary directory: 530574 MB
+3250.681 (2) Backup run: resumption=2, nonce=67250bf8108d, begun at=1506270200 (3250s ago), job type=backup, previous check-in=0s
+3250.681 (2) Terminate: This backup job is already finished (1).

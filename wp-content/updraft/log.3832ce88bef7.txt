@@ -1,0 +1,486 @@
+0000.000 (0) Opened log file at time: Sun, 10 Sep 2017 03:54:21 +0000 on http://sixandahalf.co
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.0p1 (apache2handler, Linux uws7-016.cafe24.com 3.10.0-514.21.2.el7.x86_64 #1 SMP Tue Jun 20 12:24:47 UTC 2017 x86_64) MySQL: 10.1.13 WPLANG: ko_KR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 65.4M | 58M) multisite: N openssl: OpenSSL 1.0.2d 9 Jul 2015 mcrypt: Y LANG: ko_KR.UTF-8 ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 536537.2 MB
+0000.002 (0) Tasks: Backup files: 1 (schedule: every4hours) Backup DB:  (schedule: every4hours)
+0000.002 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.003 (0) Semaphore (fd, wp_options) being initialised
+0000.005 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.006 (0) Set semaphore last lock (fd) time to 2017-09-10 03:54:21
+0000.006 (0) Semaphore lock (fd) complete
+0000.007 (0) Backup run: resumption=0, nonce=3832ce88bef7, begun at=1505015661 (0s ago), job type=backup
+0000.008 (0) Scheduling a resumption (1) after 300 seconds (1505015961) in case this run gets aborted
+0000.012 (0) Checking if we have a zip executable available
+0000.012 (0) Testing: /usr/bin/zip
+0000.017 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.017 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.018 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.018 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.018 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.022 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.023 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.026 (0) Working binary zip found: /usr/bin/zip
+0000.027 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.027 (0) Creation of backups of directories: beginning
+0000.028 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.129 (0) Total entities for the zip file: 1376 directories, 9396 files (0 skipped as non-modified), 120.5 MB
+0000.131 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.132 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.134 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.135 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.136 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.137 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.1 MB, 9396 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.572 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: size is now: 4.00 MB
+0000.574 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 600 files added (on-disk size: 4105.1 KB)
+0000.575 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 700 files added (on-disk size: 4105.1 KB)
+0000.576 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 800 files added (on-disk size: 4105.1 KB)
+0000.578 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 900 files added (on-disk size: 4105.1 KB)
+0000.579 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 1000 files added (on-disk size: 4105.1 KB)
+0000.579 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 9396 files batched, 501 (1002) added so far); re-opening (prior size: 4105.1 KB)
+0000.659 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 1100 files added (on-disk size: 4922.8 KB)
+0000.660 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 1200 files added (on-disk size: 4922.8 KB)
+0000.662 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 1300 files added (on-disk size: 4922.8 KB)
+0000.663 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 1400 files added (on-disk size: 4922.8 KB)
+0000.664 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 1500 files added (on-disk size: 4922.8 KB)
+0000.665 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.1 MB, 9396 files batched, 501 (1503) added so far); re-opening (prior size: 4922.8 KB)
+0000.811 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: size is now: 6.60 MB
+0000.814 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 1600 files added (on-disk size: 6761.9 KB)
+0000.815 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 1700 files added (on-disk size: 6761.9 KB)
+0000.817 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 1800 files added (on-disk size: 6761.9 KB)
+0000.818 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 1900 files added (on-disk size: 6761.9 KB)
+0000.819 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 2000 files added (on-disk size: 6761.9 KB)
+0000.820 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 9396 files batched, 501 (2004) added so far); re-opening (prior size: 6761.9 KB)
+0000.882 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 2100 files added (on-disk size: 7389.1 KB)
+0000.884 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 2200 files added (on-disk size: 7389.1 KB)
+0000.885 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 2300 files added (on-disk size: 7389.1 KB)
+0000.886 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 2400 files added (on-disk size: 7389.1 KB)
+0000.888 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 2500 files added (on-disk size: 7389.1 KB)
+0000.888 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.1 MB, 9396 files batched, 501 (2505) added so far); re-opening (prior size: 7389.1 KB)
+0001.326 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: size is now: 11.20 MB
+0001.328 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 2600 files added (on-disk size: 11505.9 KB)
+0001.330 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 2700 files added (on-disk size: 11505.9 KB)
+0001.331 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 2800 files added (on-disk size: 11505.9 KB)
+0001.332 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 2900 files added (on-disk size: 11505.9 KB)
+0001.334 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 3000 files added (on-disk size: 11505.9 KB)
+0001.334 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.5 MB, 9396 files batched, 501 (3006) added so far); re-opening (prior size: 11505.9 KB)
+0001.403 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: size is now: 15.10 MB
+0001.405 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 3100 files added (on-disk size: 15442.8 KB)
+0001.407 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 3200 files added (on-disk size: 15442.8 KB)
+0001.408 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 3300 files added (on-disk size: 15442.8 KB)
+0001.409 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 3400 files added (on-disk size: 15442.8 KB)
+0001.411 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 3500 files added (on-disk size: 15442.8 KB)
+0001.411 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 MB, 9396 files batched, 501 (3507) added so far); re-opening (prior size: 15442.8 KB)
+0001.606 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 3600 files added (on-disk size: 17553.4 KB)
+0001.607 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 3700 files added (on-disk size: 17553.4 KB)
+0001.609 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 3800 files added (on-disk size: 17553.4 KB)
+0001.610 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 3900 files added (on-disk size: 17553.4 KB)
+0001.611 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 4000 files added (on-disk size: 17553.4 KB)
+0001.612 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 9396 files batched, 501 (4008) added so far); re-opening (prior size: 17553.4 KB)
+0001.758 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 4100 files added (on-disk size: 18847.6 KB)
+0001.759 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 4200 files added (on-disk size: 18847.6 KB)
+0001.760 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 4300 files added (on-disk size: 18847.6 KB)
+0001.762 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 4400 files added (on-disk size: 18847.6 KB)
+0001.763 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 4500 files added (on-disk size: 18847.6 KB)
+0001.764 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.1 MB, 9396 files batched, 501 (4509) added so far); re-opening (prior size: 18847.6 KB)
+0001.821 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 4600 files added (on-disk size: 19079 KB)
+0001.822 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 4700 files added (on-disk size: 19079 KB)
+0001.824 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 4800 files added (on-disk size: 19079 KB)
+0001.825 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 4900 files added (on-disk size: 19079 KB)
+0001.826 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 5000 files added (on-disk size: 19079 KB)
+0001.827 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 9396 files batched, 501 (5010) added so far); re-opening (prior size: 19079 KB)
+0002.027 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 5100 files added (on-disk size: 22723 KB)
+0002.028 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 5200 files added (on-disk size: 22723 KB)
+0002.029 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 5300 files added (on-disk size: 22723 KB)
+0002.031 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 5400 files added (on-disk size: 22723 KB)
+0002.032 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 5500 files added (on-disk size: 22723 KB)
+0002.032 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 9396 files batched, 501 (5511) added so far); re-opening (prior size: 22723 KB)
+0002.179 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 5600 files added (on-disk size: 24195.8 KB)
+0002.180 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 5700 files added (on-disk size: 24195.8 KB)
+0002.182 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 5800 files added (on-disk size: 24195.8 KB)
+0002.183 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 5900 files added (on-disk size: 24195.8 KB)
+0002.184 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 6000 files added (on-disk size: 24195.8 KB)
+0002.185 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.7 MB, 9396 files batched, 501 (6012) added so far); re-opening (prior size: 24195.8 KB)
+0002.410 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 6100 files added (on-disk size: 27283.1 KB)
+0002.412 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 6200 files added (on-disk size: 27283.1 KB)
+0002.413 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 6300 files added (on-disk size: 27283.1 KB)
+0002.414 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 6400 files added (on-disk size: 27283.1 KB)
+0002.416 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 6500 files added (on-disk size: 27283.1 KB)
+0002.416 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 MB, 9396 files batched, 501 (6513) added so far); re-opening (prior size: 27283.1 KB)
+0002.601 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 6600 files added (on-disk size: 28897.1 KB)
+0002.602 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 6700 files added (on-disk size: 28897.1 KB)
+0002.603 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 6800 files added (on-disk size: 28897.1 KB)
+0002.605 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 6900 files added (on-disk size: 28897.1 KB)
+0002.606 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 7000 files added (on-disk size: 28897.1 KB)
+0002.607 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.6 MB, 9396 files batched, 501 (7014) added so far); re-opening (prior size: 28897.1 KB)
+0002.787 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 7100 files added (on-disk size: 30388 KB)
+0002.788 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 7200 files added (on-disk size: 30388 KB)
+0002.790 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 7300 files added (on-disk size: 30388 KB)
+0002.791 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 7400 files added (on-disk size: 30388 KB)
+0002.793 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 7500 files added (on-disk size: 30388 KB)
+0002.793 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.6 MB, 9396 files batched, 501 (7515) added so far); re-opening (prior size: 30388 KB)
+0003.189 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 7600 files added (on-disk size: 34377.8 KB)
+0003.190 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 7700 files added (on-disk size: 34377.8 KB)
+0003.191 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 7800 files added (on-disk size: 34377.8 KB)
+0003.193 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 7900 files added (on-disk size: 34377.8 KB)
+0003.194 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 8000 files added (on-disk size: 34377.8 KB)
+0003.194 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.1 MB, 9396 files batched, 501 (8016) added so far); re-opening (prior size: 34377.8 KB)
+0003.564 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 8100 files added (on-disk size: 39309.2 KB)
+0003.565 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 8200 files added (on-disk size: 39309.2 KB)
+0003.567 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 8300 files added (on-disk size: 39309.2 KB)
+0003.568 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 8400 files added (on-disk size: 39309.2 KB)
+0003.569 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 8500 files added (on-disk size: 39309.2 KB)
+0003.570 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.2 MB, 9396 files batched, 501 (8517) added so far); re-opening (prior size: 39309.2 KB)
+0003.920 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 8600 files added (on-disk size: 42788.6 KB)
+0003.922 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 8700 files added (on-disk size: 42788.6 KB)
+0003.923 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 8800 files added (on-disk size: 42788.6 KB)
+0003.924 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 8900 files added (on-disk size: 42788.6 KB)
+0003.926 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 9000 files added (on-disk size: 42788.6 KB)
+0003.926 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 9396 files batched, 501 (9018) added so far); re-opening (prior size: 42788.6 KB)
+0004.086 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 9100 files added (on-disk size: 43979.5 KB)
+0004.087 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 9200 files added (on-disk size: 43979.5 KB)
+0004.089 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip.tmp: 9300 files added (on-disk size: 43979.5 KB)
+0004.530 (0) Created plugins zip (0) - 44989.3 KB in 4.5 s (9994.3 KB/s) (sha1: 7e41527316edf96ed6d6a9a9aade1ca821137a9b, sha256: d07f709acc7fcb8b028dbfc21596483ca6c8067eeb9d67b123e98a6929c6c78d)
+0004.531 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.538 (0) Total entities for the zip file: 111 directories, 635 files (0 skipped as non-modified), 57.2 MB
+0004.539 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.541 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.541 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (31.8 MB, 635 files batched, 236 (236) added so far); re-opening (prior size: 0 KB)
+0004.909 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-themes.zip.tmp: size is now: 4.10 MB
+0004.910 (0) A useful amount of data was added after this amount of zip processing: 1 s (normalised: 0.8 s, rate: 31329.7 KB/s)
+0004.911 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.0378549098969, normalised_time=0.81711701780324, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=192489443)
+0004.912 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-themes.zip.tmp: 300 files added (on-disk size: 4177.5 KB)
+0004.914 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-themes.zip.tmp: 400 files added (on-disk size: 4177.5 KB)
+0004.915 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-themes.zip.tmp: 500 files added (on-disk size: 4177.5 KB)
+0004.917 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-themes.zip.tmp: 600 files added (on-disk size: 4177.5 KB)
+0005.238 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-themes.zip.tmp: size is now: 24.10 MB
+0005.420 (0) Created themes zip (0) - 24699.4 KB in 0.9 s (27794.7 KB/s) (sha1: 58c364e459d5ea215bf16e403508f9ae02c78de5, sha256: 7724d7c2a792c6c80d11909ce77e73036d7692f2628740c154db283be323742d)
+0005.421 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0005.422 (0) Looking for candidates to back up in: /home/hosting_users/sixandahalf/www/wp-content/uploads
+0005.422 (0) finding files: woocommerce_uploads: adding to list (1)
+0005.422 (0) finding files: 2015: adding to list (2)
+0005.423 (0) finding files: woopay-inicis: adding to list (3)
+0005.423 (0) finding files: revslider: adding to list (4)
+0005.423 (0) finding files: 2017: adding to list (5)
+0005.424 (0) finding files: wc-logs: adding to list (6)
+0005.424 (0) finding files: js_composer: adding to list (7)
+0005.424 (0) finding files: GeoIP.dat: adding to list (8)
+0005.424 (0) finding files: GeoIPv6.dat: adding to list (9)
+0005.425 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0005.467 (0) Total entities for the zip file: 144 directories, 5901 files (0 skipped as non-modified), 209 MB
+0005.468 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.470 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.471 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.472 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0005.473 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0005.474 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (28.7 MB, 5901 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0005.593 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: size is now: 28.80 MB
+0005.595 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 600 files added (on-disk size: 29521.8 KB)
+0005.596 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 700 files added (on-disk size: 29521.8 KB)
+0005.598 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 800 files added (on-disk size: 29521.8 KB)
+0005.599 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 900 files added (on-disk size: 29521.8 KB)
+0005.600 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 1000 files added (on-disk size: 29521.8 KB)
+0005.601 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (22.6 MB, 5901 files batched, 501 (1002) added so far); re-opening (prior size: 29521.8 KB)
+0005.727 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: size is now: 51.60 MB
+0005.729 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 1100 files added (on-disk size: 52813.2 KB)
+0005.730 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 1200 files added (on-disk size: 52813.2 KB)
+0005.732 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 1300 files added (on-disk size: 52813.2 KB)
+0005.733 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 1400 files added (on-disk size: 52813.2 KB)
+0005.734 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 1500 files added (on-disk size: 52813.2 KB)
+0005.735 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.6 MB, 5901 files batched, 501 (1503) added so far); re-opening (prior size: 52813.2 KB)
+0005.844 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: size is now: 68.20 MB
+0005.846 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 1600 files added (on-disk size: 69871.9 KB)
+0005.847 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 1700 files added (on-disk size: 69871.9 KB)
+0005.849 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 1800 files added (on-disk size: 69871.9 KB)
+0005.850 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 1900 files added (on-disk size: 69871.9 KB)
+0005.851 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 2000 files added (on-disk size: 69871.9 KB)
+0005.852 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.9 MB, 5901 files batched, 501 (2004) added so far); re-opening (prior size: 69871.9 KB)
+0005.971 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: size is now: 82.20 MB
+0005.973 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 2100 files added (on-disk size: 84221.8 KB)
+0005.974 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 2200 files added (on-disk size: 84221.8 KB)
+0005.976 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 2300 files added (on-disk size: 84221.8 KB)
+0005.977 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 2400 files added (on-disk size: 84221.8 KB)
+0005.979 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 2500 files added (on-disk size: 84221.8 KB)
+0005.979 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.5 MB, 5901 files batched, 501 (2505) added so far); re-opening (prior size: 84221.8 KB)
+0006.121 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: size is now: 99.80 MB
+0006.124 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 2600 files added (on-disk size: 102236.8 KB)
+0006.125 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 2700 files added (on-disk size: 102236.8 KB)
+0006.126 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 2800 files added (on-disk size: 102236.8 KB)
+0006.128 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 2900 files added (on-disk size: 102236.8 KB)
+0006.129 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 3000 files added (on-disk size: 102236.8 KB)
+0006.129 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.9 MB, 5901 files batched, 501 (3006) added so far); re-opening (prior size: 102236.8 KB)
+0006.277 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 3100 files added (on-disk size: 117600.9 KB)
+0006.278 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 3200 files added (on-disk size: 117600.9 KB)
+0006.280 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 3300 files added (on-disk size: 117600.9 KB)
+0006.281 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 3400 files added (on-disk size: 117600.9 KB)
+0006.282 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 3500 files added (on-disk size: 117600.9 KB)
+0006.283 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.3 MB, 5901 files batched, 501 (3507) added so far); re-opening (prior size: 117600.9 KB)
+0006.439 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 3600 files added (on-disk size: 133415.6 KB)
+0006.441 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 3700 files added (on-disk size: 133415.6 KB)
+0006.442 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 3800 files added (on-disk size: 133415.6 KB)
+0006.443 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 3900 files added (on-disk size: 133415.6 KB)
+0006.445 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 4000 files added (on-disk size: 133415.6 KB)
+0006.445 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.9 MB, 5901 files batched, 501 (4008) added so far); re-opening (prior size: 133415.6 KB)
+0006.608 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 4100 files added (on-disk size: 148784.6 KB)
+0006.610 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 4200 files added (on-disk size: 148784.6 KB)
+0006.611 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 4300 files added (on-disk size: 148784.6 KB)
+0006.613 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 4400 files added (on-disk size: 148784.6 KB)
+0006.614 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 4500 files added (on-disk size: 148784.6 KB)
+0006.614 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.9 MB, 5901 files batched, 501 (4509) added so far); re-opening (prior size: 148784.6 KB)
+0006.802 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 4600 files added (on-disk size: 164153.2 KB)
+0006.803 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 4700 files added (on-disk size: 164153.2 KB)
+0006.804 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 4800 files added (on-disk size: 164153.2 KB)
+0006.806 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 4900 files added (on-disk size: 164153.2 KB)
+0006.807 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 5000 files added (on-disk size: 164153.2 KB)
+0006.807 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.2 MB, 5901 files batched, 501 (5010) added so far); re-opening (prior size: 164153.2 KB)
+0007.004 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 5100 files added (on-disk size: 181870.7 KB)
+0007.006 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 5200 files added (on-disk size: 181870.7 KB)
+0007.007 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 5300 files added (on-disk size: 181870.7 KB)
+0007.008 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 5400 files added (on-disk size: 181870.7 KB)
+0007.010 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 5500 files added (on-disk size: 181870.7 KB)
+0007.010 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.5 MB, 5901 files batched, 501 (5511) added so far); re-opening (prior size: 181870.7 KB)
+0007.218 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 5600 files added (on-disk size: 197849.4 KB)
+0007.219 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 5700 files added (on-disk size: 197849.4 KB)
+0007.221 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 5800 files added (on-disk size: 197849.4 KB)
+0007.222 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip.tmp: 5900 files added (on-disk size: 197849.4 KB)
+0009.156 (0) Created uploads zip (0) - 213735.2 KB in 3.7 s (57294.5 KB/s) (sha1: 6eb5fa768838e157517c5392ed0f673a56ba54fe, sha256: 786ef61d9cc09c559811e340f80de19a5fceece47ba151dec859c2c16ceedb4f)
+0009.157 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.157 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.158 (0) Looking for candidates to back up in: /home/hosting_users/sixandahalf/www/wp-content
+0009.158 (0) finding files: themes: skipping: this is the themes directory
+0009.158 (0) finding files: languages: adding to list (1)
+0009.159 (0) finding files: index.php: adding to list (2)
+0009.159 (0) finding files: plugins: skipping: this is the plugins directory
+0009.159 (0) finding files: uploads: skipping: this is the uploads directory
+0009.160 (0) finding files: upgrade: skipping: excluded by options
+0009.160 (0) finding files: inicis: adding to list (3)
+0009.160 (0) finding files: envato-backups: skipping: excluded by options (glob)
+0009.161 (0) finding files: updraft: skipping: this is the updraft directory
+0009.162 (0) Total entities for the zip file: 11 directories, 109 files (0 skipped as non-modified), 4.4 MB
+0009.164 (0) Zip: backup_2017-09-10-1254_sixandahalf_3832ce88bef7-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.284 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-others.zip.tmp: size is now: 1.60 MB
+0009.297 (0) Created others zip (0) - 1631.7 KB in 0.1 s (11966.6 KB/s) (sha1: b6559d5e544adf8854c36148ea8ad972608a1d07, sha256: 585cbaa6bf9c91595e03091b9ec7c90a5088ff6769d58ece9e547aeaec70c5f2)
+0009.299 (0) Saving backup status to database (elements: 8)
+0009.300 (0) Beginning creation of database dump (WordPress DB)
+0009.301 (0) Testing: /usr/local/bin/mysqldump
+0009.309 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1208 bytes total)
+0009.310 (0) Working binary mysqldump found: /usr/local/bin/mysqldump
+0009.316 (0) Table wp_options: Total expected rows (approximate): 1363
+0009.377 (0) Table wp_options: Total rows added: 1469 in 0.06 seconds
+0009.378 (0) Table wp_options: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_options.table.gz - 409.4 KB)
+0009.379 (0) Table wp_users: Total expected rows (approximate): 10
+0009.380 (0) Table wp_users: Total rows added: 10 in 0.00 seconds
+0009.380 (0) Table wp_users: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_users.table.gz - 1.1 KB)
+0009.381 (0) Table wp_usermeta: Total expected rows (approximate): 334
+0009.383 (0) Table wp_usermeta: Total rows added: 334 in 0.00 seconds
+0009.384 (0) Table wp_usermeta: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_usermeta.table.gz - 5.6 KB)
+0009.385 (0) Table wp_commentmeta: Total expected rows (approximate): 104
+0009.386 (0) Table wp_commentmeta: Total rows added: 96 in 0.00 seconds
+0009.386 (0) Table wp_commentmeta: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_commentmeta.table.gz - 0.8 KB)
+0009.387 (0) Table wp_comments: Total expected rows (approximate): 77
+0009.389 (0) Table wp_comments: Total rows added: 82 in 0.00 seconds
+0009.389 (0) Table wp_comments: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_comments.table.gz - 2.4 KB)
+0009.394 (0) Table wp_links: Total expected rows (approximate): 0
+0009.395 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0009.395 (0) Table wp_links: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_links.table.gz - 0.4 KB)
+0009.396 (0) Table wp_postmeta: Total expected rows (approximate): 25703
+0009.457 (0) Table wp_postmeta: binary mysqldump finished (writes: 34) in 0.06 seconds
+0009.458 (0) Table wp_postmeta: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_postmeta.table.gz - 228.2 KB)
+0009.459 (0) Table wp_posts: Total expected rows (approximate): 2870
+0009.543 (0) Table wp_posts: Total rows added: 2236 in 0.08 seconds
+0009.543 (0) Table wp_posts: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_posts.table.gz - 345.8 KB)
+0009.545 (0) Table wp_term_relationships: Total expected rows (approximate): 1042
+0009.548 (0) Table wp_term_relationships: Total rows added: 1042 in 0.00 seconds
+0009.548 (0) Table wp_term_relationships: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_term_relationships.table.gz - 3.4 KB)
+0009.549 (0) Table wp_term_taxonomy: Total expected rows (approximate): 131
+0009.551 (0) Table wp_term_taxonomy: Total rows added: 131 in 0.00 seconds
+0009.551 (0) Table wp_term_taxonomy: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_term_taxonomy.table.gz - 1.7 KB)
+0009.553 (0) Table wp_termmeta: Total expected rows (approximate): 49
+0009.554 (0) Table wp_termmeta: Total rows added: 49 in 0.00 seconds
+0009.554 (0) Table wp_termmeta: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_termmeta.table.gz - 0.7 KB)
+0009.555 (0) Table wp_terms: Total expected rows (approximate): 129
+0009.556 (0) Table wp_terms: Total rows added: 131 in 0.00 seconds
+0009.557 (0) Table wp_terms: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_terms.table.gz - 1.9 KB)
+0009.558 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 492
+0009.560 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 504 in 0.00 seconds
+0009.561 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_order_itemmeta.table.gz - 3.4 KB)
+0009.564 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0009.565 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0009.565 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0009.568 (0) Table wp_irecommendthis_votes: Total expected rows (approximate): 0
+0009.568 (0) Table wp_irecommendthis_votes: Total rows added: 0 in 0.00 seconds
+0009.569 (0) Table wp_irecommendthis_votes: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_irecommendthis_votes.table.gz - 0.3 KB)
+0009.570 (0) Table wp_layerslider: Total expected rows (approximate): 0
+0009.571 (0) Table wp_layerslider: Total rows added: 0 in 0.00 seconds
+0009.571 (0) Table wp_layerslider: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_layerslider.table.gz - 0.4 KB)
+0009.574 (0) Table wp_layerslider_revisions: Total expected rows (approximate): 0
+0009.575 (0) Table wp_layerslider_revisions: Total rows added: 0 in 0.00 seconds
+0009.575 (0) Table wp_layerslider_revisions: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_layerslider_revisions.table.gz - 0.3 KB)
+0009.578 (0) Table wp_revslider_css: Total expected rows (approximate): 109
+0009.580 (0) Table wp_revslider_css: Total rows added: 109 in 0.00 seconds
+0009.580 (0) Table wp_revslider_css: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_revslider_css.table.gz - 4.8 KB)
+0009.583 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0009.583 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0009.584 (0) Table wp_revslider_layer_animations: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0009.586 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0009.587 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0009.587 (0) Table wp_revslider_navigations: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0009.589 (0) Table wp_revslider_sliders: Total expected rows (approximate): 0
+0009.589 (0) Table wp_revslider_sliders: Total rows added: 0 in 0.00 seconds
+0009.590 (0) Table wp_revslider_sliders: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_revslider_sliders.table.gz - 0.3 KB)
+0009.592 (0) Table wp_revslider_slides: Total expected rows (approximate): 0
+0009.593 (0) Table wp_revslider_slides: Total rows added: 0 in 0.00 seconds
+0009.593 (0) Table wp_revslider_slides: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_revslider_slides.table.gz - 0.3 KB)
+0009.596 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0009.596 (0) Table wp_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0009.597 (0) Table wp_revslider_static_slides: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0009.599 (0) Table wp_rp4wp_cache: Total expected rows (approximate): 1678
+0009.606 (0) Table wp_rp4wp_cache: Total rows added: 1703 in 0.01 seconds
+0009.607 (0) Table wp_rp4wp_cache: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_rp4wp_cache.table.gz - 10 KB)
+0009.610 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0009.611 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0009.611 (0) Table wp_woocommerce_api_keys: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0009.614 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 2
+0009.615 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 3 in 0.00 seconds
+0009.615 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.5 KB)
+0009.616 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0009.617 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0009.617 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0009.620 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0009.621 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0009.621 (0) Table wp_woocommerce_log: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0009.622 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 40
+0009.623 (0) Table wp_woocommerce_order_items: Total rows added: 42 in 0.00 seconds
+0009.623 (0) Table wp_woocommerce_order_items: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_order_items.table.gz - 0.6 KB)
+0009.625 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0009.625 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0009.626 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0009.627 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 14
+0009.628 (0) Table wp_woocommerce_sessions: Total rows added: 14 in 0.00 seconds
+0009.628 (0) Table wp_woocommerce_sessions: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_sessions.table.gz - 2.4 KB)
+0009.629 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0009.630 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 1 in 0.00 seconds
+0009.630 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0009.632 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0009.632 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0009.633 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0009.634 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0009.635 (0) Table wp_woocommerce_shipping_zones: Total rows added: 1 in 0.00 seconds
+0009.635 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_shipping_zones.table.gz - 0.4 KB)
+0009.637 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0009.637 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0009.638 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0009.639 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0009.640 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0009.640 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0009.643 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 39
+0009.644 (0) Table wp_yoast_seo_links: Total rows added: 39 in 0.00 seconds
+0009.644 (0) Table wp_yoast_seo_links: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_yoast_seo_links.table.gz - 0.9 KB)
+0009.645 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 307
+0009.647 (0) Table wp_yoast_seo_meta: Total rows added: 307 in 0.00 seconds
+0009.647 (0) Table wp_yoast_seo_meta: finishing file (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_yoast_seo_meta.table.gz - 1.3 KB)
+0009.649 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_options.table.gz (1/38): adding to final database dump
+0009.708 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_users.table.gz (2/38): adding to final database dump
+0009.709 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_usermeta.table.gz (3/38): adding to final database dump
+0009.710 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_commentmeta.table.gz (4/38): adding to final database dump
+0009.711 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_comments.table.gz (5/38): adding to final database dump
+0009.711 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_links.table.gz (6/38): adding to final database dump
+0009.712 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_postmeta.table.gz (7/38): adding to final database dump
+0009.753 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_posts.table.gz (8/38): adding to final database dump
+0009.809 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_term_relationships.table.gz (9/38): adding to final database dump
+0009.811 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_term_taxonomy.table.gz (10/38): adding to final database dump
+0009.812 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_termmeta.table.gz (11/38): adding to final database dump
+0009.813 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_terms.table.gz (12/38): adding to final database dump
+0009.813 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_order_itemmeta.table.gz (13/38): adding to final database dump
+0009.815 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_payment_tokenmeta.table.gz (14/38): adding to final database dump
+0009.815 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_irecommendthis_votes.table.gz (15/38): adding to final database dump
+0009.816 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_layerslider.table.gz (16/38): adding to final database dump
+0009.816 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_layerslider_revisions.table.gz (17/38): adding to final database dump
+0009.816 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_revslider_css.table.gz (18/38): adding to final database dump
+0009.818 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_revslider_layer_animations.table.gz (19/38): adding to final database dump
+0009.818 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_revslider_navigations.table.gz (20/38): adding to final database dump
+0009.819 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_revslider_sliders.table.gz (21/38): adding to final database dump
+0009.819 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_revslider_slides.table.gz (22/38): adding to final database dump
+0009.819 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_revslider_static_slides.table.gz (23/38): adding to final database dump
+0009.820 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_rp4wp_cache.table.gz (24/38): adding to final database dump
+0009.823 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_api_keys.table.gz (25/38): adding to final database dump
+0009.824 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_attribute_taxonomies.table.gz (26/38): adding to final database dump
+0009.824 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (27/38): adding to final database dump
+0009.824 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_log.table.gz (28/38): adding to final database dump
+0009.825 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_order_items.table.gz (29/38): adding to final database dump
+0009.825 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_payment_tokens.table.gz (30/38): adding to final database dump
+0009.826 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_sessions.table.gz (31/38): adding to final database dump
+0009.826 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_shipping_zone_locations.table.gz (32/38): adding to final database dump
+0009.827 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_shipping_zone_methods.table.gz (33/38): adding to final database dump
+0009.827 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_shipping_zones.table.gz (34/38): adding to final database dump
+0009.827 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_tax_rate_locations.table.gz (35/38): adding to final database dump
+0009.828 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_woocommerce_tax_rates.table.gz (36/38): adding to final database dump
+0009.828 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_yoast_seo_links.table.gz (37/38): adding to final database dump
+0009.829 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db-table-wp_yoast_seo_meta.table.gz (38/38): adding to final database dump
+0009.829 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db.gz: finished writing out complete database file (992 KB)
+0009.841 (0) Total database tables backed up: 38 (backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db.gz, size: 1049958, sha256)
+0009.844 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0009.844 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0009.844 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0009.845 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-others.zip: others: This file has not yet been successfully uploaded: will queue
+0009.845 (0) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0009.845 (0) Saving backup history. Total backup size: 279.4 MB
+0009.846 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0009.847 (0) Cloud backup selection (1/1): dropbox (last)
+0009.848 (0) Beginning dispatch of backup to remote (dropbox)
+0009.848 (0) You do not appear to be authenticated with Dropbox (1)
+0009.848 (0) An error condition has occurred for the first time during this job
+0009.849 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0009.850 (0) Number of backup sets in history: 1; groups (db): 1
+0009.850 (0) Examining (for databases) backup set with group_id=0, nonce=3832ce88bef7, datestamp=1505015661 (Sep 10 2017 03:54:21)
+0009.850 (0) This backup set is the backup set just made, so will not be deleted.
+0009.850 (0) Number of backup sets in history: 1; groups (files): 1
+0009.850 (0) Examining (for files) backup set with nonce=3832ce88bef7, datestamp=1505015661 (Sep 10 2017 03:54:21)
+0009.851 (0) This backup set is the backup set just made, so will not be deleted.
+0009.851 (0) This backup set is the backup set just made, so will not be deleted.
+0009.851 (0) This backup set is the backup set just made, so will not be deleted.
+0009.851 (0) This backup set is the backup set just made, so will not be deleted.
+0009.851 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.851 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0009.852 (0) Resume backup (3832ce88bef7, 0): finish run
+0009.853 (0) Decremented the semaphore (fd) by 1
+0009.854 (0) Semaphore (fd) unlocked
+0009.854 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0009.855 (0) Rescheduling resumption 1: moving to 120 seconds from now (1505015790)
+0009.856 (0) No email will/can be sent - the user has not configured an email address.
+0009.856 (0) The backup has not finished; a resumption is scheduled
+0131.921 (1) Opened log file at time: Sun, 10 Sep 2017 03:56:33 +0000 on http://sixandahalf.co
+0131.921 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.0p1 (apache2handler, Linux uws7-016.cafe24.com 3.10.0-514.21.2.el7.x86_64 #1 SMP Tue Jun 20 12:24:47 UTC 2017 x86_64) MySQL: 10.1.13 WPLANG: ko_KR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 65.4M | 20M) multisite: N openssl: OpenSSL 1.0.2d 9 Jul 2015 mcrypt: Y LANG: ko_KR.UTF-8 ZipArchive::addFile: Y
+0131.922 (1) Free space on disk containing Updraft's temporary directory: 536269.6 MB
+0131.922 (1) Backup run: resumption=1, nonce=3832ce88bef7, begun at=1505015661 (132s ago), job type=backup, previous check-in=9.6s
+0131.923 (1) Scheduling a resumption (2) after 300 seconds (1505016093) in case this run gets aborted
+0131.927 (1) Checking if we have a zip executable available
+0131.928 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0131.928 (1) Creation of backups of directories: already finished
+0131.928 (1) Saving backup status to database (elements: 8)
+0131.930 (1) Database dump (WordPress DB): Creation was completed already
+0131.932 (1) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0131.932 (1) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0131.932 (1) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0131.932 (1) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-others.zip: others: This file has not yet been successfully uploaded: will queue
+0131.933 (1) backup_2017-09-10-1254_sixandahalf_3832ce88bef7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0131.933 (1) Saving backup history. Total backup size: 279.4 MB
+0131.934 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0131.934 (1) Cloud backup selection (1/1): dropbox (last)
+0131.935 (1) Beginning dispatch of backup to remote (dropbox)
+0131.935 (1) You do not appear to be authenticated with Dropbox (1)
+0131.935 (1) An error condition has occurred for the first time during this job
+0131.936 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0131.936 (1) Number of backup sets in history: 1; groups (db): 1
+0131.937 (1) Examining (for databases) backup set with group_id=0, nonce=3832ce88bef7, datestamp=1505015661 (Sep 10 2017 03:54:21)
+0131.937 (1) This backup set is the backup set just made, so will not be deleted.
+0131.937 (1) Number of backup sets in history: 1; groups (files): 1
+0131.937 (1) Examining (for files) backup set with nonce=3832ce88bef7, datestamp=1505015661 (Sep 10 2017 03:54:21)
+0131.937 (1) This backup set is the backup set just made, so will not be deleted.
+0131.938 (1) This backup set is the backup set just made, so will not be deleted.
+0131.938 (1) This backup set is the backup set just made, so will not be deleted.
+0131.938 (1) This backup set is the backup set just made, so will not be deleted.
+0131.938 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0131.938 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0131.939 (1) Resume backup (3832ce88bef7, 1): finish run
+0131.939 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0131.940 (1) No email will/can be sent - the user has not configured an email address.
+0131.940 (1) The backup has not finished; a resumption is scheduled

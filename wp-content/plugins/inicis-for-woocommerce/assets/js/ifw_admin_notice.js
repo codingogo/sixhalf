@@ -1,0 +1,1 @@
+jQuery(document).on("click",".inicis_notice_4_5_0 .notice-dismiss",function(){jQuery.ajax({type:"POST",url:ajaxurl,dataType:"html",data:{action:"dismissed_inicie_notice_450",dismissed:"yes"},success:function(a){console.log("dismissed success!")}})});

@@ -1,0 +1,2380 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: livemesh-siteorigin-widgets\n"
+"POT-Creation-Date: 2017-08-04 16:53+0530\n"
+"PO-Revision-Date: 2017-08-04 16:53+0530\n"
+"Last-Translator: LiveMesh\n"
+"Language-Team: Ahrale | Atar4U.com <contact@atar4u.com>\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e;_nx_noop\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-ajax.php:56
+msgid "Sorry, an error occurred. Please refresh the page."
+msgstr "מצטערים, אירעה שגיאה. נא לרענן את הדף."
+
+#: admin/admin-ajax.php:82
+msgid "Sorry, an unknown error occurred..."
+msgstr "מצטערים, אירעה שגיאה לא ידועה..."
+
+#: admin/admin-ajax.php:123
+msgid "Saving plugin settings"
+msgstr "שומר את הגדרות התוסף"
+
+#: admin/admin-ajax.php:124
+msgid "Plugin settings Saved"
+msgstr "הגדרות התוסף נשמרו"
+
+#: admin/admin-ajax.php:125
+msgid "Sorry, an error occurs while saving settings..."
+msgstr "מצטערים, אירעה שגיאה בזמן שמירת ההגדרות..."
+
+#: admin/admin-ajax.php:128
+msgid "Resetting plugin settings"
+msgstr "איפוס הגדרות תוסף"
+
+#: admin/admin-ajax.php:129
+msgid "Plugin settings resetted"
+msgstr "הגדרות התוסף אופסו"
+
+#: admin/admin-ajax.php:130
+msgid "Sorry, an error occurred while resetting settings"
+msgstr "מצטערים, אירעה שגיאה בעת איפוס ההגדרות"
+
+#: admin/admin-init.php:67 admin/views/documentation.php:196
+msgid "VC Addons"
+msgstr ""
+
+#: admin/admin-init.php:78 includes/addons/heading/class-lvca-heading.php:126
+#: includes/addons/heading/class-lvca-heading.php:139
+msgid "Settings"
+msgstr "הגדרות"
+
+#: admin/admin-init.php:88
+msgid "Documentation"
+msgstr "תיעוד"
+
+#: admin/admin-init.php:98
+msgid "Upgrade to Pro"
+msgstr "שדרוג לגרסת פרו"
+
+#: admin/views/admin-banner1.php:13 admin/views/admin-banner2.php:13
+msgid "Visual Composer Addons"
+msgstr ""
+
+#: admin/views/admin-banner1.php:13
+msgid "Plugin Documentation"
+msgstr "תיעוד התוסף"
+
+#: admin/views/admin-banner2.php:13
+msgid "Plugin Settings"
+msgstr "הגדרות התוסף"
+
+#: admin/views/admin-banner2.php:16
+msgid "Save Settings"
+msgstr "שמירת ההגדרות"
+
+#: admin/views/admin-banner2.php:18
+msgid "Reset"
+msgstr "איפוס"
+
+#: admin/views/admin-banner3.php:13
+msgid "Addons for Visual Composer"
+msgstr ""
+
+#: admin/views/admin-banner3.php:13
+msgid "Premium Upgrade"
+msgstr "שדרוג לגרסת פרו"
+
+#: admin/views/documentation.php:32
+#, php-format
+msgid "Getting started with %1$s v%2$s"
+msgstr "תחילת עבודה עם %1$s v%2$s"
+
+#: admin/views/documentation.php:34
+#, php-format
+msgid ""
+"Thanks for installing %1$s! We truly appreciate the support and the "
+"opportunity to share our work with you. Please visit the tabs below to get "
+"started on using our plugin to build your site!"
+msgstr ""
+"תודה על התקנת  %1$s! אנו מעריכים את התמיכה ואת ההזדמנות לחלוק אתך את העבודה "
+"שלנו. נא לבקר בלשוניות שלהלן כדי להתחיל את השימוש בתוסף שלנו כדי לבנות את "
+"האתר שלך!"
+
+#: admin/views/documentation.php:42
+msgid "Help File"
+msgstr "קובץ עזרה"
+
+#: admin/views/documentation.php:45
+msgid "Plugins"
+msgstr "תוספים"
+
+#: admin/views/documentation.php:49
+msgid "FAQ &amp; Support"
+msgstr "שאלות נפוצות ותמיכה"
+
+#: admin/views/documentation.php:53
+msgid "Latest Updates"
+msgstr "עדכונים אחרונים"
+
+#: admin/views/documentation.php:117 admin/views/documentation.php:200
+msgid "VC Addons→Settings"
+msgstr ""
+
+#: admin/views/documentation.php:131 admin/views/documentation.php:178
+msgid "Tools→Import"
+msgstr "כלים ← יבוא"
+
+#: admin/views/documentation.php:1123
+msgid "Visual Composer"
+msgstr ""
+
+#: admin/views/documentation.php:1126
+msgid "Install Visual Composer"
+msgstr ""
+
+#: admin/views/documentation.php:1127 admin/views/documentation.php:1151
+msgid "Install Now"
+msgstr "התקנה"
+
+#: admin/views/documentation.php:1131 admin/views/documentation.php:1155
+msgid "Installed"
+msgstr "מותקן"
+
+#: admin/views/documentation.php:1147
+msgid "Portfolio Post Type"
+msgstr "סוג פוסט פורטפוליו"
+
+#: admin/views/documentation.php:1150
+msgid "Install Portfolio Post Type"
+msgstr "התקנת סוג פוסט פורטפוליו"
+
+#: admin/views/documentation.php:1282
+msgid "Why upgrade to Premium version?"
+msgstr "למה לשדרג לגרסת פרו?"
+
+#: admin/views/documentation.php:1283
+msgid ""
+"Premium version offers multiple benefits - more addon elements, advanced "
+"features for addons including those part of the free plugin and priority "
+"support through a dedicated support forum."
+msgstr ""
+
+#: admin/views/documentation.php:1287
+msgid "Know More"
+msgstr "פרטים נוספים"
+
+#: admin/views/documentation.php:1287
+msgid "Know More Details"
+msgstr "פרטים נוספים"
+
+#: admin/views/premium-upgrade.php:475
+msgid "Why upgrade to Premium Version of the plugin?"
+msgstr "למה לשדרג לגרסת הפרימיום של התוסף?"
+
+#: admin/views/premium-upgrade.php:603
+#: includes/addons/team/social-profile.php:12
+msgid "Contact Us"
+msgstr "צרו קשר"
+
+#: admin/views/premium-upgrade.php:603
+msgid "Write to Us"
+msgstr "כתבו לנו"
+
+#: admin/views/settings.php:68
+msgid "General"
+msgstr "כללי"
+
+#: admin/views/settings.php:71
+msgid "Elements"
+msgstr ""
+
+#: admin/views/settings.php:74 admin/views/settings.php:374
+#: admin/views/settings.php:380
+msgid "Custom CSS"
+msgstr "עיצוב CSS"
+
+#: admin/views/settings.php:77
+msgid "Debugging"
+msgstr "ניפוי שגיאות"
+
+#: admin/views/settings.php:80 admin/views/settings.php:447
+msgid "Premium Version"
+msgstr "כרסת פרימיום"
+
+#: admin/views/settings.php:90
+msgid "Theme Colors"
+msgstr "צבעי התבנית"
+
+#: admin/views/settings.php:95
+msgid "Theme Color Scheme"
+msgstr "סכמת צבעי התבנית"
+
+#: admin/views/settings.php:96
+msgid ""
+"Most themes use a single color as a major color across the site. This color "
+"is often used for links, titles, buttons, icons, highlights etc. <br> To "
+"maintain the consistent look with the theme, specify the default color used "
+"by the theme activated on your site. This color will be applied to the addon "
+"elements by default. <br>The hover color refers to the color set for links "
+"on mouse hover."
+msgstr ""
+
+#: admin/views/settings.php:103
+msgid "Theme Color"
+msgstr "צבע התבנית"
+
+#: admin/views/settings.php:104
+msgid "Select the default theme color."
+msgstr "נא לבחור את צבע ברירת המחדל של התבנית"
+
+#: admin/views/settings.php:115
+msgid "Theme Hover Color"
+msgstr "צבע התבנית בריחוף עכבר"
+
+#: admin/views/settings.php:116
+msgid "Select the default hover color for your theme."
+msgstr "נא לבחור את צבע ברירת המחדל בעת ריחוף עכבר"
+
+#: admin/views/settings.php:140
+msgid "Optimize Plugin"
+msgstr ""
+
+#: admin/views/settings.php:148
+msgid "Deactivate elements for better performance"
+msgstr ""
+
+#: admin/views/settings.php:150
+msgid ""
+"You can deactivate those elements that you do not intend to use to avoid "
+"loading scripts and files related to those elements."
+msgstr ""
+
+#: admin/views/settings.php:158
+msgid "Deactivate Accordion"
+msgstr ""
+
+#: admin/views/settings.php:159
+msgid "Deactivate the accordion element."
+msgstr ""
+
+#: admin/views/settings.php:171
+msgid "Deactivate Carousel"
+msgstr ""
+
+#: admin/views/settings.php:172
+msgid "Deactivate the carousel element."
+msgstr ""
+
+#: admin/views/settings.php:183
+msgid "Deactivate Clients"
+msgstr ""
+
+#: admin/views/settings.php:184
+msgid "Deactivate the clients element."
+msgstr ""
+
+#: admin/views/settings.php:195
+msgid "Deactivate Heading"
+msgstr ""
+
+#: admin/views/settings.php:196
+msgid "Deactivate the heading element."
+msgstr ""
+
+#: admin/views/settings.php:207
+msgid "Deactivate Odometers"
+msgstr ""
+
+#: admin/views/settings.php:208
+msgid "Deactivate the odometers element."
+msgstr ""
+
+#: admin/views/settings.php:220
+msgid "Deactivate Piecharts"
+msgstr ""
+
+#: admin/views/settings.php:221
+msgid "Deactivate the piecharts element."
+msgstr ""
+
+#: admin/views/settings.php:233
+msgid "Deactivate Portfolio"
+msgstr ""
+
+#: admin/views/settings.php:234
+msgid "Deactivate the portfolio element."
+msgstr ""
+
+#: admin/views/settings.php:246
+msgid "Deactivate Posts Carousel"
+msgstr ""
+
+#: admin/views/settings.php:247
+msgid "Deactivate the posts carousel element."
+msgstr ""
+
+#: admin/views/settings.php:259
+msgid "Deactivate Pricing Table"
+msgstr ""
+
+#: admin/views/settings.php:260
+msgid "Deactivate the pricing table element."
+msgstr ""
+
+#: admin/views/settings.php:272
+msgid "Deactivate Spacer"
+msgstr ""
+
+#: admin/views/settings.php:273
+msgid "Deactivate the spacer element."
+msgstr ""
+
+#: admin/views/settings.php:284
+msgid "Deactivate Services"
+msgstr ""
+
+#: admin/views/settings.php:285
+msgid "Deactivate the services element."
+msgstr ""
+
+#: admin/views/settings.php:296
+msgid "Deactivate Stats Bars"
+msgstr ""
+
+#: admin/views/settings.php:297
+msgid "Deactivate the stats bars element."
+msgstr ""
+
+#: admin/views/settings.php:309
+msgid "Deactivate Tabs"
+msgstr ""
+
+#: admin/views/settings.php:310
+msgid "Deactivate the tabs element."
+msgstr ""
+
+#: admin/views/settings.php:321
+msgid "Deactivate Team"
+msgstr ""
+
+#: admin/views/settings.php:322
+msgid "Deactivate the team element."
+msgstr ""
+
+#: admin/views/settings.php:333
+msgid "Deactivate Testimonials"
+msgstr ""
+
+#: admin/views/settings.php:334
+msgid "Deactivate the testimonials element."
+msgstr ""
+
+#: admin/views/settings.php:346
+msgid "Deactivate Testimonials Slider"
+msgstr ""
+
+#: admin/views/settings.php:347
+msgid "Deactivate the testimonials slider element."
+msgstr ""
+
+#: admin/views/settings.php:382
+msgid "Please enter custom CSS for custom styling of elements"
+msgstr ""
+
+#: admin/views/settings.php:401
+msgid "Debug Mode"
+msgstr "מצב ניפוי שגיאות"
+
+#: admin/views/settings.php:406
+msgid "Enable Script Debug Mode"
+msgstr "הפעלת מצב ניפוי שגיאות"
+
+#: admin/views/settings.php:408
+msgid ""
+"Use unminified Javascript files instead of minified ones to help developers "
+"debug an issue"
+msgstr ""
+
+#: admin/views/settings.php:421
+msgid "System Info"
+msgstr "מידע מערכת"
+
+#: admin/views/settings.php:427
+msgid "System Information"
+msgstr "מידע מערכת"
+
+#: admin/views/settings.php:428
+msgid "Server setup information useful for debugging purposes."
+msgstr "מידע הגדרות השרת שימושי למטרות ניפוי שגיאות."
+
+#: admin/views/settings.php:455
+msgid "Why upgrade to Premium Version of the plugin?!"
+msgstr ""
+
+#: admin/views/settings.php:506
+msgid "Purchase Now"
+msgstr "קניה"
+
+#: admin/views/settings.php:568
+msgid "Go Premium"
+msgstr ""
+
+#: includes/addons/accordion/class-lvca-accordion.php:93
+msgid "Livemesh Accordion"
+msgstr "אקורדיאון"
+
+#: includes/addons/accordion/class-lvca-accordion.php:98
+#: includes/addons/carousel/class-lvca-carousel.php:115
+#: includes/addons/carousel/class-lvca-carousel.php:137
+#: includes/addons/clients/class-lvca-clients.php:120
+#: includes/addons/heading/class-lvca-heading.php:83
+#: includes/addons/odometers/class-lvca-odometers.php:154
+#: includes/addons/piecharts/class-lvca-piecharts.php:123
+#: includes/addons/portfolio/class-lvca-portfolio.php:478
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:296
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:199
+#: includes/addons/services/class-lvca-services.php:153
+#: includes/addons/spacer/class-lvca-spacer.php:70
+#: includes/addons/stats-bar/class-lvca-stats-bar.php:119
+#: includes/addons/tabs/class-lvca-tabs.php:233
+#: includes/addons/team/class-lvca-team.php:164
+#: includes/addons/team/class-lvca-team.php:212
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:147
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:218
+#: includes/addons/testimonials/class-lvca-testimonials.php:123
+#: includes/addons/testimonials/class-lvca-testimonials.php:155
+msgid "Livemesh VC Addons"
+msgstr ""
+
+#: includes/addons/accordion/class-lvca-accordion.php:100
+msgid "Display collapsible content panels."
+msgstr ""
+
+#: includes/addons/accordion/class-lvca-accordion.php:109
+msgid "Choose Accordion Style"
+msgstr "בחירת עיצוב אקורדיאון"
+
+#: includes/addons/accordion/class-lvca-accordion.php:110
+msgid "Choose the particular style of accordion you need"
+msgstr ""
+
+#: includes/addons/accordion/class-lvca-accordion.php:112
+#: includes/addons/heading/class-lvca-heading.php:121
+#: includes/addons/services/class-lvca-services.php:166
+#: includes/addons/tabs/class-lvca-tabs.php:246
+#: includes/addons/team/class-lvca-team.php:177
+msgid "Style 1"
+msgstr "עיצוב 1"
+
+#: includes/addons/accordion/class-lvca-accordion.php:113
+#: includes/addons/heading/class-lvca-heading.php:122
+#: includes/addons/services/class-lvca-services.php:167
+#: includes/addons/tabs/class-lvca-tabs.php:247
+#: includes/addons/team/class-lvca-team.php:178
+msgid "Style 2"
+msgstr "עיצוב 2"
+
+#: includes/addons/accordion/class-lvca-accordion.php:114
+#: includes/addons/heading/class-lvca-heading.php:123
+#: includes/addons/services/class-lvca-services.php:168
+#: includes/addons/tabs/class-lvca-tabs.php:248
+msgid "Style 3"
+msgstr "עיצוב 3"
+
+#: includes/addons/accordion/class-lvca-accordion.php:122
+msgid "Allow to function like toggle?"
+msgstr "לאפשר תפקוד מיתוג?"
+
+#: includes/addons/accordion/class-lvca-accordion.php:123
+msgid "Check if multiple elements can be open at the same time."
+msgstr "לסמן כדי לאפשר פתיחת כמה תיבות בו זמנית"
+
+#: includes/addons/accordion/class-lvca-accordion.php:124
+#: includes/addons/portfolio/class-lvca-portfolio.php:332
+#: includes/addons/portfolio/class-lvca-portfolio.php:349
+#: includes/addons/portfolio/class-lvca-portfolio.php:357
+#: includes/addons/portfolio/class-lvca-portfolio.php:365
+#: includes/addons/portfolio/class-lvca-portfolio.php:374
+#: includes/addons/portfolio/class-lvca-portfolio.php:382
+#: includes/addons/portfolio/class-lvca-portfolio.php:393
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:231
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:248
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:256
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:264
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:273
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:281
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:173
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:181
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:189
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:197
+#: includes/mapper-functions.php:135 includes/mapper-functions.php:143
+#: includes/mapper-functions.php:152 includes/mapper-functions.php:177
+#: livemesh-vc-addons.php:335
+msgid "Yes"
+msgstr ""
+
+#: includes/addons/accordion/class-lvca-accordion.php:137
+msgid "Livemesh Panel"
+msgstr ""
+
+#: includes/addons/accordion/class-lvca-accordion.php:148
+msgid "Panel Title"
+msgstr "כותרת הלוח"
+
+#: includes/addons/accordion/class-lvca-accordion.php:149
+msgid "Title for the panel."
+msgstr ""
+
+#: includes/addons/accordion/class-lvca-accordion.php:154
+msgid "Panel Content"
+msgstr "תוכן הלוח"
+
+#: includes/addons/accordion/class-lvca-accordion.php:155
+msgid "The collapsible content of the panel in the accordion."
+msgstr "התוכן הנסתר של הלוח באקורדיאון"
+
+#: includes/addons/carousel/class-lvca-carousel.php:110
+#: includes/addons/carousel/class-lvca-carousel.php:132
+msgid "Livemesh Carousel"
+msgstr "קרוסלה"
+
+#: includes/addons/carousel/class-lvca-carousel.php:117
+msgid "Display a carousel of html elements."
+msgstr ""
+
+#: includes/addons/carousel/class-lvca-carousel.php:142
+#: includes/addons/clients/class-lvca-clients.php:159
+#: includes/addons/testimonials/class-lvca-testimonials.php:162
+msgid "Name"
+msgstr "שם"
+
+#: includes/addons/carousel/class-lvca-carousel.php:143
+msgid ""
+"The title to identify the HTML element. Will not be output to the frontend."
+msgstr ""
+
+#: includes/addons/carousel/class-lvca-carousel.php:149
+msgid "HTML element"
+msgstr "רכיב HTML"
+
+#: includes/addons/carousel/class-lvca-carousel.php:150
+msgid ""
+"The HTML content for the carousel item. Custom CSS for presentation of the "
+"HTML elements should be entered by the user in Settings->Custom CSS panel in "
+"VC or in the theme files."
+msgstr ""
+
+#: includes/addons/clients/class-lvca-clients.php:115
+msgid "Livemesh Clients"
+msgstr "לקוחות"
+
+#: includes/addons/clients/class-lvca-clients.php:122
+msgid "Display clients in a multi-column grid."
+msgstr ""
+
+#: includes/addons/clients/class-lvca-clients.php:134
+msgid "Clients per row"
+msgstr ""
+
+#: includes/addons/clients/class-lvca-clients.php:135
+msgid "The number of columns to display per row of the clients"
+msgstr ""
+
+#: includes/addons/clients/class-lvca-clients.php:148
+msgid "Livemesh Client"
+msgstr ""
+
+#: includes/addons/clients/class-lvca-clients.php:160
+msgid "Name of the client/customer."
+msgstr ""
+
+#: includes/addons/clients/class-lvca-clients.php:166
+msgid "Client URL"
+msgstr "כתובת הלקוח"
+
+#: includes/addons/clients/class-lvca-clients.php:167
+msgid "The website of the client/customer."
+msgstr "אתר הלקוח"
+
+#: includes/addons/clients/class-lvca-clients.php:173
+msgid "Client Logo."
+msgstr ""
+
+#: includes/addons/clients/class-lvca-clients.php:174
+msgid "The logo image for the client/customer."
+msgstr "תמונת הלוגו של הלקוח"
+
+#: includes/addons/heading/class-lvca-heading.php:79
+msgid "Livemesh Heading"
+msgstr "כותרת"
+
+#: includes/addons/heading/class-lvca-heading.php:84
+msgid "Create heading for a section."
+msgstr ""
+
+#: includes/addons/heading/class-lvca-heading.php:92
+#: includes/addons/odometers/class-lvca-odometers.php:193
+#: includes/addons/services/class-lvca-services.php:204
+msgid "Title"
+msgstr "כותרת"
+
+#: includes/addons/heading/class-lvca-heading.php:93
+msgid "Title for the heading."
+msgstr "הכותרת של הכותר"
+
+#: includes/addons/heading/class-lvca-heading.php:98
+msgid "Subheading or Subtitle"
+msgstr ""
+
+#: includes/addons/heading/class-lvca-heading.php:99
+msgid "A subtitle displayed above the title heading."
+msgstr "כותרת משנה להצגה מעל הכותרת"
+
+#: includes/addons/heading/class-lvca-heading.php:108
+msgid "Short Text"
+msgstr "טקסט קצר"
+
+#: includes/addons/heading/class-lvca-heading.php:109
+msgid "Short text generally displayed below the heading title."
+msgstr "טקסט קצר שבדרך כלל מוצג מתחת לכותרת"
+
+#: includes/addons/heading/class-lvca-heading.php:118
+#: includes/addons/services/class-lvca-services.php:163
+#: includes/addons/team/class-lvca-team.php:174
+msgid "Choose Style"
+msgstr "בחירת עיצוב"
+
+#: includes/addons/heading/class-lvca-heading.php:119
+msgid "Choose the particular style of heading you need"
+msgstr ""
+
+#: includes/addons/heading/class-lvca-heading.php:131
+msgid "Align"
+msgstr "יישור"
+
+#: includes/addons/heading/class-lvca-heading.php:132
+msgid "Alignment of the heading"
+msgstr ""
+
+#: includes/addons/heading/class-lvca-heading.php:134
+msgid "Center"
+msgstr "מרכז"
+
+#: includes/addons/heading/class-lvca-heading.php:135
+msgid "Left"
+msgstr "שמאל"
+
+#: includes/addons/heading/class-lvca-heading.php:136
+msgid "Right"
+msgstr "ימין"
+
+#: includes/addons/odometers/class-lvca-odometers.php:149
+msgid "Livemesh Odometers"
+msgstr "מדדים"
+
+#: includes/addons/odometers/class-lvca-odometers.php:156
+msgid "Display odometers in a multi-column grid."
+msgstr ""
+
+#: includes/addons/odometers/class-lvca-odometers.php:168
+#: includes/addons/portfolio/class-lvca-portfolio.php:412
+#: includes/addons/services/class-lvca-services.php:179
+#: includes/addons/team/class-lvca-team.php:189
+#: includes/addons/testimonials/class-lvca-testimonials.php:136
+#: includes/mapper-functions.php:15 includes/mapper-functions.php:44
+#: includes/mapper-functions.php:83
+msgid "Columns per row"
+msgstr "מספר עמודות בשורה"
+
+#: includes/addons/odometers/class-lvca-odometers.php:169
+msgid "The number of columns to display per row of the odometers"
+msgstr ""
+
+#: includes/addons/odometers/class-lvca-odometers.php:182
+msgid "Livemesh Odometer"
+msgstr ""
+
+#: includes/addons/odometers/class-lvca-odometers.php:194
+msgid "Title for the odometer stats."
+msgstr ""
+
+#: includes/addons/odometers/class-lvca-odometers.php:200
+msgid "Start Value"
+msgstr "ערך התחלתי"
+
+#: includes/addons/odometers/class-lvca-odometers.php:201
+msgid "The start value for the odometer stats."
+msgstr "הערך ההתחלתי של מדד הסטטיסטיקה"
+
+#: includes/addons/odometers/class-lvca-odometers.php:207
+msgid "Stop Value"
+msgstr "ערך סיום"
+
+#: includes/addons/odometers/class-lvca-odometers.php:208
+msgid "The stop value for the odometer stats."
+msgstr "הערך בות ייעצר מדד הסטטיסטיקה"
+
+#: includes/addons/odometers/class-lvca-odometers.php:214
+msgid "Prefix"
+msgstr "קידומת"
+
+#: includes/addons/odometers/class-lvca-odometers.php:215
+msgid ""
+"The prefix string for the odometer stats. Examples include currency symbols "
+"like $ to indicate a monetary value."
+msgstr ""
+"מחרוזת הקידומת עבור סטטיסטיקת המדד: למשל הצגת סמל ערך מטבע $ לציון ערך כספי"
+
+#: includes/addons/odometers/class-lvca-odometers.php:221
+msgid "Suffix"
+msgstr "סיומת"
+
+#: includes/addons/odometers/class-lvca-odometers.php:222
+msgid ""
+"The suffix string for the odometer stats. Examples include strings like hr "
+"for hours or m for million."
+msgstr "מחרוזת הסיומת עבור סטטיסטיקת המדד. לדוגמה ימים, שעות וכדומה."
+
+#: includes/addons/odometers/class-lvca-odometers.php:228
+#: includes/addons/services/class-lvca-services.php:211
+msgid "Choose Icon Type"
+msgstr "בחירת סוג צלמית"
+
+#: includes/addons/odometers/class-lvca-odometers.php:231
+#: includes/addons/odometers/class-lvca-odometers.php:260
+#: includes/addons/odometers/class-lvca-odometers.php:277
+#: includes/addons/odometers/class-lvca-odometers.php:294
+#: includes/addons/odometers/class-lvca-odometers.php:311
+#: includes/addons/odometers/class-lvca-odometers.php:327
+#: includes/addons/services/class-lvca-services.php:214
+#: includes/addons/services/class-lvca-services.php:243
+#: includes/addons/services/class-lvca-services.php:260
+#: includes/addons/services/class-lvca-services.php:277
+#: includes/addons/services/class-lvca-services.php:294
+#: includes/addons/services/class-lvca-services.php:310
+#: includes/addons/tabs/class-lvca-tabs.php:316
+#: includes/addons/tabs/class-lvca-tabs.php:362
+#: includes/addons/tabs/class-lvca-tabs.php:379
+#: includes/addons/tabs/class-lvca-tabs.php:396
+#: includes/addons/tabs/class-lvca-tabs.php:412
+msgid "Icon"
+msgstr "צלמית"
+
+#: includes/addons/odometers/class-lvca-odometers.php:232
+#: includes/addons/services/class-lvca-services.php:215
+#: includes/addons/tabs/class-lvca-tabs.php:317
+msgid "Icon Image"
+msgstr "תמונת צלמית"
+
+#: includes/addons/odometers/class-lvca-odometers.php:239
+msgid "Odometer Image."
+msgstr ""
+
+#: includes/addons/odometers/class-lvca-odometers.php:245
+#: includes/addons/services/class-lvca-services.php:228
+#: includes/addons/tabs/class-lvca-tabs.php:330
+msgid "Icon library"
+msgstr ""
+
+#: includes/addons/odometers/class-lvca-odometers.php:247
+#: includes/addons/services/class-lvca-services.php:230
+#: includes/addons/tabs/class-lvca-tabs.php:332
+msgid "Font Awesome"
+msgstr ""
+
+#: includes/addons/odometers/class-lvca-odometers.php:248
+#: includes/addons/services/class-lvca-services.php:231
+#: includes/addons/tabs/class-lvca-tabs.php:333
+msgid "Open Iconic"
+msgstr ""
+
+#: includes/addons/odometers/class-lvca-odometers.php:249
+#: includes/addons/services/class-lvca-services.php:232
+#: includes/addons/tabs/class-lvca-tabs.php:334
+msgid "Typicons"
+msgstr ""
+
+#: includes/addons/odometers/class-lvca-odometers.php:250
+#: includes/addons/services/class-lvca-services.php:233
+#: includes/addons/tabs/class-lvca-tabs.php:335
+msgid "Entypo"
+msgstr ""
+
+#: includes/addons/odometers/class-lvca-odometers.php:251
+#: includes/addons/services/class-lvca-services.php:234
+#: includes/addons/tabs/class-lvca-tabs.php:336
+msgid "Linecons"
+msgstr ""
+
+#: includes/addons/odometers/class-lvca-odometers.php:255
+#: includes/addons/services/class-lvca-services.php:238
+#: includes/addons/tabs/class-lvca-tabs.php:340
+msgid "Select icon library."
+msgstr ""
+
+#: includes/addons/odometers/class-lvca-odometers.php:273
+#: includes/addons/odometers/class-lvca-odometers.php:290
+#: includes/addons/odometers/class-lvca-odometers.php:307
+#: includes/addons/odometers/class-lvca-odometers.php:340
+#: includes/addons/services/class-lvca-services.php:256
+#: includes/addons/services/class-lvca-services.php:273
+#: includes/addons/services/class-lvca-services.php:290
+#: includes/addons/services/class-lvca-services.php:323
+#: includes/addons/tabs/class-lvca-tabs.php:358
+#: includes/addons/tabs/class-lvca-tabs.php:375
+#: includes/addons/tabs/class-lvca-tabs.php:392
+#: includes/addons/tabs/class-lvca-tabs.php:425
+msgid "Select icon from library."
+msgstr ""
+
+#: includes/addons/piecharts/class-lvca-piecharts.php:118
+msgid "Livemesh Piecharts"
+msgstr "תרשימי עוגה"
+
+#: includes/addons/piecharts/class-lvca-piecharts.php:125
+msgid "Display piecharts in a multi-column grid."
+msgstr ""
+
+#: includes/addons/piecharts/class-lvca-piecharts.php:133
+#: includes/addons/stats-bar/class-lvca-stats-bar.php:171
+msgid "Bar color"
+msgstr "צבע הלוח"
+
+#: includes/addons/piecharts/class-lvca-piecharts.php:139
+msgid "Track color"
+msgstr "צבע הדרך"
+
+#: includes/addons/piecharts/class-lvca-piecharts.php:150
+msgid "Piecharts per row"
+msgstr "מספר התרשימים בשורה"
+
+#: includes/addons/piecharts/class-lvca-piecharts.php:151
+msgid "The number of columns to display per row of the piecharts"
+msgstr ""
+
+#: includes/addons/piecharts/class-lvca-piecharts.php:164
+msgid "Livemesh Pierchart"
+msgstr ""
+
+#: includes/addons/piecharts/class-lvca-piecharts.php:175
+#: includes/addons/stats-bar/class-lvca-stats-bar.php:155
+msgid "Stats Title"
+msgstr "כותרת הסטטיסטיקה"
+
+#: includes/addons/piecharts/class-lvca-piecharts.php:176
+msgid "Title for the piechart."
+msgstr ""
+
+#: includes/addons/piecharts/class-lvca-piecharts.php:185
+#: includes/addons/stats-bar/class-lvca-stats-bar.php:165
+msgid "Percentage Value"
+msgstr "ערך באחוזים"
+
+#: includes/addons/piecharts/class-lvca-piecharts.php:186
+msgid "The percentage value for the piechart."
+msgstr ""
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:305
+msgid "Heading for the portfolio/blog"
+msgstr ""
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:311
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:210
+msgid "Posts query"
+msgstr "שאילתת הפוסטים"
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:324
+msgid ""
+"Create WordPress loop, to populate content from your site. After you build "
+"the query, make sure you choose the right taxonomy below to display for your "
+"posts and filter on, based on the post type selected during build query."
+msgstr ""
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:331
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:230
+msgid "Link Images to Posts?"
+msgstr "האם לקשר את התמונות לפוסטים?"
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:338
+msgid "Choose the taxonomy to display and filter on."
+msgstr "בחירת טקסונומיה לסינון הצגת הפוסטים"
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:339
+msgid ""
+"Choose the taxonomy information to display for posts/portfolio and the "
+"taxonomy that is used to filter the portfolio/post. Takes effect only if no "
+"query category/tag/taxonomy filters are specified when building query."
+msgstr ""
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:348
+msgid "Display posts title below the post/portfolio item?"
+msgstr ""
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:350
+#: includes/addons/portfolio/class-lvca-portfolio.php:358
+#: includes/addons/portfolio/class-lvca-portfolio.php:366
+#: includes/addons/portfolio/class-lvca-portfolio.php:375
+#: includes/addons/portfolio/class-lvca-portfolio.php:383
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:241
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:249
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:257
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:265
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:274
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:282
+msgid "Post Info"
+msgstr ""
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:356
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:255
+msgid "Display post author info below the post item?"
+msgstr "האם להציג את מחבר הפוסט מתחת לפריט?"
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:364
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:263
+msgid "Display post date info below the post item?"
+msgstr "האם להציג את תאריך הפוסט מתחת לפריט?"
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:373
+msgid "Display taxonomy info below the post/portfolio item?"
+msgstr ""
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:381
+msgid "Display post excerpt/summary below the post/portfolio item?"
+msgstr ""
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:392
+msgid "Filterable?"
+msgstr "בר סינון?"
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:400
+msgid "Choose a layout for the portfolio/blog"
+msgstr ""
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:402
+msgid "Fit Rows"
+msgstr "מותאם לשורה"
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:403
+msgid "Masonry"
+msgstr "בניה"
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:422
+#: includes/mapper-functions.php:35 includes/mapper-functions.php:64
+#: includes/mapper-functions.php:103
+msgid "Gutter"
+msgstr "גאטר"
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:423
+#: includes/mapper-functions.php:36 includes/mapper-functions.php:65
+#: includes/mapper-functions.php:104
+msgid "Space between columns."
+msgstr "מרווח בין עמודות"
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:434
+msgid "Gutter in Tablets"
+msgstr ""
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:435
+msgid "Space between columns in tablets."
+msgstr ""
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:443
+#: includes/addons/spacer/class-lvca-spacer.php:88
+msgid "Tablet Resolution"
+msgstr ""
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:444
+#: includes/mapper-functions.php:74
+msgid "The resolution to treat as a tablet resolution."
+msgstr "הרזולוציה להתייחסות כאל רזולוציית טאבלט"
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:453
+msgid "Gutter in Mobiles"
+msgstr ""
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:454
+msgid "Space between columns in mobiles."
+msgstr ""
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:462
+#: includes/addons/spacer/class-lvca-spacer.php:112
+#: includes/addons/tabs/class-lvca-tabs.php:274
+msgid "Mobile Resolution"
+msgstr "רזולוציית טלפון נייד"
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:463
+#: includes/mapper-functions.php:113
+msgid "The resolution to treat as a mobile resolution."
+msgstr "הרזולוציה להתייחסות כאל טלפון נייד"
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:474
+msgid "Livemesh Grid"
+msgstr "רשת"
+
+#: includes/addons/portfolio/class-lvca-portfolio.php:479
+msgid "Display work or posts with a filterable grid."
+msgstr ""
+
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:223
+msgid "Create WordPress loop, to populate content from your site."
+msgstr ""
+
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:237
+msgid "Choose the taxonomy to display info."
+msgstr "בחירת טקסונומיה למידע תצוגה"
+
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:238
+msgid ""
+"Choose the taxonomy to use for display of taxonomy information for posts/"
+"custom post types."
+msgstr "בחירת טקסונומיה לשימוש עבור מידע הטקסונומיה עבור סוגי פוסט"
+
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:247
+msgid "Display posts title below the post item?"
+msgstr "הצגת כותרת פוסט מתחת לפריט?"
+
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:272
+msgid "Display taxonomy info below the post item?"
+msgstr "האם להציג מידע טקסונומיה מתחת לפריט?"
+
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:280
+msgid "Display post excerpt/summary below the post item?"
+msgstr "להציג למטה תקציר?"
+
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:292
+msgid "Livemesh Posts Carousel"
+msgstr "קרוסלת פוסטים"
+
+#: includes/addons/posts-carousel/class-lvca-posts-carousel.php:297
+msgid "Display posts or post types as a carousel."
+msgstr ""
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:194
+msgid "Livemesh Pricing Table"
+msgstr "טבלת מחירים"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:201
+msgid "Display pricing table in a multi-column grid."
+msgstr "הצגת טבלת מחירם ברשת עמודות"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:213
+msgid "Pricing Plans per row"
+msgstr ""
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:214
+msgid "The number of pricing plans to display per row of the pricing table"
+msgstr ""
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:227
+msgid "Livemesh Pricing Plan"
+msgstr ""
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:237
+msgid "Pricing Plan Title"
+msgstr "כותרת חבילת מחיר"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:238
+msgid "The title for the pricing plan"
+msgstr "הכותרת עבור חבילת מחיר"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:244
+msgid "Tagline Text"
+msgstr "טקסט תיאור"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:245
+msgid ""
+"Provide any subtitle or taglines like \"Most Popular\", \"Best Value\", "
+"\"Best Selling\", \"Most Flexible\" etc. that you would like to use for this "
+"pricing plan."
+msgstr ""
+"כותרת משנה או תיאור כמו \"הכי פופולרי\", \"הכי נמכר\" וכדומה, עבור חבילת "
+"מחיר זו"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:251
+msgid "Pricing Image"
+msgstr ""
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:257
+msgid "Price Tag"
+msgstr "תגית מחיר"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:258
+msgid "Enter the price tag for the pricing plan. HTML is accepted."
+msgstr "הזנת תגית מחיר עבור חבילת המחיר. אפשר להשתמש ב HTML"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:264
+msgid "Highlight Pricing Plan"
+msgstr "הבלטת החבילה"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:265
+msgid "Specify if you want to highlight the pricing plan."
+msgstr "נא לציין אם להבליט חבילת מחיר זו"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:271
+msgid "Pricing Plan Details"
+msgstr "פרטי החבילה"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:272
+msgid ""
+"Enter the content for the pricing plan that include information about "
+"individual features of the pricing plan. For prebuilt styling, enter "
+"shortcodes content like - [lvca_pricing_item title=\"Storage Space\" value="
+"\"50 GB\"] [lvca_pricing_item title=\"Video Uploads\" value=\"50\"]"
+"[lvca_pricing_item title=\"Portfolio Items\" value=\"20\"]"
+msgstr ""
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:278
+msgid "Text for Pricing Link/Button"
+msgstr "טקסט עבור כפתור המחיר"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:279
+msgid ""
+"Provide the text for the link or the button shown for this pricing plan."
+msgstr "הטקסט עבור הקישור או הכפתור המוצג עבור חבילת המחיר"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:286
+msgid "URL for the Pricing link/button"
+msgstr "כתובת URL עבור הקישור / כפתור"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:287
+msgid ""
+"Provide the target URL for the link or the button shown for this pricing "
+"plan."
+msgstr "כתובת URL אליה יפנה הקישור או הכפתור בחבילת המחיר"
+
+#: includes/addons/pricing-table/class-lvca-pricing-table.php:294
+msgid "Open Button URL in a new window"
+msgstr "פתיחת הקישור בחלון חדש"
+
+#: includes/addons/services/class-lvca-services.php:148
+msgid "Livemesh Services"
+msgstr "שירותים"
+
+#: includes/addons/services/class-lvca-services.php:155
+msgid "Display services in a column grid."
+msgstr ""
+
+#: includes/addons/services/class-lvca-services.php:164
+msgid "Choose the particular style of services you need"
+msgstr ""
+
+#: includes/addons/services/class-lvca-services.php:180
+msgid "The number of columns to display per row of the services"
+msgstr ""
+
+#: includes/addons/services/class-lvca-services.php:193
+msgid "Livemesh Service"
+msgstr ""
+
+#: includes/addons/services/class-lvca-services.php:205
+msgid "Title of the service."
+msgstr "כותרת השירות"
+
+#: includes/addons/services/class-lvca-services.php:222
+msgid "Service Image."
+msgstr "תמונת שירות"
+
+#: includes/addons/services/class-lvca-services.php:329
+msgid "Service description"
+msgstr ""
+
+#: includes/addons/services/class-lvca-services.php:330
+msgid "Provide a short description for the service"
+msgstr "תיאור קצר של השירות"
+
+#: includes/addons/services/class-lvca-services.php:336
+msgid ""
+"Short description (field will be removed in future - move text to Service "
+"description)"
+msgstr ""
+
+#: includes/addons/services/class-lvca-services.php:337
+msgid "Provide a short description for the service "
+msgstr ""
+
+#: includes/addons/services/class-lvca-services.php:338
+msgid "Deprecated"
+msgstr ""
+
+#: includes/addons/spacer/class-lvca-spacer.php:66
+msgid "Livemesh Spacer"
+msgstr ""
+
+#: includes/addons/spacer/class-lvca-spacer.php:71
+msgid "Add spacer between rows and elements."
+msgstr ""
+
+#: includes/addons/spacer/class-lvca-spacer.php:77
+msgid "Desktop Spacing"
+msgstr ""
+
+#: includes/addons/spacer/class-lvca-spacer.php:78
+msgid "Space in pixels in Desktop Resolution"
+msgstr ""
+
+#: includes/addons/spacer/class-lvca-spacer.php:89
+msgid "The resolution to treat as a tablet resolution"
+msgstr ""
+
+#: includes/addons/spacer/class-lvca-spacer.php:100
+msgid "Tablet Spacing"
+msgstr ""
+
+#: includes/addons/spacer/class-lvca-spacer.php:101
+msgid "Space in Tablet Resolution"
+msgstr ""
+
+#: includes/addons/spacer/class-lvca-spacer.php:113
+msgid "The resolution to treat as a mobile resolution"
+msgstr ""
+
+#: includes/addons/spacer/class-lvca-spacer.php:124
+msgid "Mobile Spacing"
+msgstr ""
+
+#: includes/addons/spacer/class-lvca-spacer.php:125
+msgid "Space in Mobile Resolution"
+msgstr ""
+
+#: includes/addons/stats-bar/class-lvca-stats-bar.php:114
+msgid "Livemesh Stats Bars"
+msgstr "לוחות סטטיסטיקה"
+
+#: includes/addons/stats-bar/class-lvca-stats-bar.php:121
+msgid "Display stats bars of skills or percentage stats."
+msgstr ""
+
+#: includes/addons/stats-bar/class-lvca-stats-bar.php:129
+msgid "Default Bar color"
+msgstr ""
+
+#: includes/addons/stats-bar/class-lvca-stats-bar.php:130
+msgid ""
+"The default bar color to be used if none specified for individual stats bars"
+msgstr ""
+
+#: includes/addons/stats-bar/class-lvca-stats-bar.php:144
+msgid "Livemesh Stats Bar"
+msgstr ""
+
+#: includes/addons/stats-bar/class-lvca-stats-bar.php:156
+msgid "Title for the stats bar."
+msgstr ""
+
+#: includes/addons/stats-bar/class-lvca-stats-bar.php:166
+msgid "The percentage value for the stats."
+msgstr "הערך באחוזים עבור הסטטיסטיקה"
+
+#: includes/addons/tabs/class-lvca-tabs.php:228
+msgid "Livemesh Tabs"
+msgstr "לשוניות"
+
+#: includes/addons/tabs/class-lvca-tabs.php:235
+msgid "Display tabbed content in variety of styles."
+msgstr "הצגת תוכן בלשוניות במגוון עיצובים"
+
+#: includes/addons/tabs/class-lvca-tabs.php:243
+msgid "Choose Tab Style"
+msgstr "בחירת עיצוב הלשונית"
+
+#: includes/addons/tabs/class-lvca-tabs.php:244
+msgid "Choose the particular style of tabs you need"
+msgstr ""
+
+#: includes/addons/tabs/class-lvca-tabs.php:249
+msgid "Style 4"
+msgstr ""
+
+#: includes/addons/tabs/class-lvca-tabs.php:250
+msgid "Style 5"
+msgstr ""
+
+#: includes/addons/tabs/class-lvca-tabs.php:251
+msgid "Style 6"
+msgstr ""
+
+#: includes/addons/tabs/class-lvca-tabs.php:252
+msgid "Vertical Style 1"
+msgstr ""
+
+#: includes/addons/tabs/class-lvca-tabs.php:253
+msgid "Vertical Style 2"
+msgstr ""
+
+#: includes/addons/tabs/class-lvca-tabs.php:254
+msgid "Vertical Style 3"
+msgstr ""
+
+#: includes/addons/tabs/class-lvca-tabs.php:255
+msgid "Vertical Style 4"
+msgstr ""
+
+#: includes/addons/tabs/class-lvca-tabs.php:264
+msgid "Tab Highlight color"
+msgstr ""
+
+#: includes/addons/tabs/class-lvca-tabs.php:275
+msgid ""
+"The resolution to treat as a mobile resolution for invoking responsive tabs."
+msgstr ""
+"הרזולוציה שתשמש להתייחסות כאל רזולוציית טלפון נייד בלשוניות רספונסיביות"
+
+#: includes/addons/tabs/class-lvca-tabs.php:293
+msgid "Livemesh Tab"
+msgstr ""
+
+#: includes/addons/tabs/class-lvca-tabs.php:304
+msgid "Tab Title"
+msgstr "כותרת הלשונית"
+
+#: includes/addons/tabs/class-lvca-tabs.php:305
+msgid "The title for the tab shown as name for tab navigation."
+msgstr "הכותרת עבור הלשונית המוצגת כשם הלשונית בניווט הלשוניות"
+
+#: includes/addons/tabs/class-lvca-tabs.php:311
+msgid "Choose Tab Icon Type or None"
+msgstr ""
+
+#: includes/addons/tabs/class-lvca-tabs.php:312
+msgid "Some styles may ignore icons chosen."
+msgstr "חלק מן העיצובים עלולים להתעלם מן הצלמיות שנבחרו"
+
+#: includes/addons/tabs/class-lvca-tabs.php:315
+msgid "None"
+msgstr "ללא"
+
+#: includes/addons/tabs/class-lvca-tabs.php:324
+msgid "Tab Image."
+msgstr "תמונת הלשונית"
+
+#: includes/addons/tabs/class-lvca-tabs.php:345
+msgid "Tab Icon"
+msgstr ""
+
+#: includes/addons/tabs/class-lvca-tabs.php:431
+msgid "Tab Content"
+msgstr "תוכן הלשונית"
+
+#: includes/addons/tabs/class-lvca-tabs.php:432
+msgid "The content of the tab."
+msgstr "תוכן הלשונית"
+
+#: includes/addons/team/class-lvca-team.php:159
+msgid "Livemesh Team"
+msgstr ""
+
+#: includes/addons/team/class-lvca-team.php:166
+msgid "Create team members."
+msgstr ""
+
+#: includes/addons/team/class-lvca-team.php:175
+msgid "Choose the particular style of team you need"
+msgstr ""
+
+#: includes/addons/team/class-lvca-team.php:190
+msgid "The number of team members to display per row of the team"
+msgstr ""
+
+#: includes/addons/team/class-lvca-team.php:207
+msgid "Livemesh Team Member"
+msgstr ""
+
+#: includes/addons/team/class-lvca-team.php:219
+msgid "Team Member Name"
+msgstr ""
+
+#: includes/addons/team/class-lvca-team.php:220
+msgid "Name of the team member."
+msgstr "שם החבר בצוות"
+
+#: includes/addons/team/class-lvca-team.php:226
+msgid "Team Member Image."
+msgstr ""
+
+#: includes/addons/team/class-lvca-team.php:231
+msgid "Position"
+msgstr "תפקיד"
+
+#: includes/addons/team/class-lvca-team.php:232
+msgid "Specify the position/title of the team member."
+msgstr "ציון התפקיד / הכותרת של חבר הצוות"
+
+#: includes/addons/team/class-lvca-team.php:238
+msgid "Short details"
+msgstr "פרטים בקצרה"
+
+#: includes/addons/team/class-lvca-team.php:239
+msgid "Provide a short writeup for the team member"
+msgstr "מידע קצר על חבר הצוות"
+
+#: includes/addons/team/class-lvca-team.php:245
+#: includes/addons/team/class-lvca-team.php:253
+#: includes/addons/team/class-lvca-team.php:261
+#: includes/addons/team/class-lvca-team.php:269
+#: includes/addons/team/class-lvca-team.php:277
+#: includes/addons/team/class-lvca-team.php:285
+#: includes/addons/team/class-lvca-team.php:293
+#: includes/addons/team/class-lvca-team.php:301
+msgid "Social Profile"
+msgstr ""
+
+#: includes/addons/team/class-lvca-team.php:246
+msgid "Email Address"
+msgstr "כתובת אימייל"
+
+#: includes/addons/team/class-lvca-team.php:247
+msgid "Enter the email address of the team member."
+msgstr "הזנת כתובת האימייל של חבר הצוות"
+
+#: includes/addons/team/class-lvca-team.php:254
+msgid "Facebook Page URL"
+msgstr "כתובת עמוד פייסבוק"
+
+#: includes/addons/team/class-lvca-team.php:255
+msgid "URL of the Facebook page of the team member."
+msgstr "כתובת עמוד פייסבוק של חבר הצוות"
+
+#: includes/addons/team/class-lvca-team.php:262
+msgid "Twitter Profile URL"
+msgstr "כתובת פרופיל טוויטר"
+
+#: includes/addons/team/class-lvca-team.php:263
+msgid "URL of the Twitter page of the team member."
+msgstr "כתובת עמוד הטוויטר של חבר הצוות"
+
+#: includes/addons/team/class-lvca-team.php:270
+msgid "LinkedIn Page URL"
+msgstr "כתובת ה URL ב LinkedIn "
+
+#: includes/addons/team/class-lvca-team.php:271
+msgid "URL of the LinkedIn profile of the team member."
+msgstr "כתובת ה URL של פרופיל חבר הצוות ב LinkedIn "
+
+#: includes/addons/team/class-lvca-team.php:278
+msgid "Pinterest Page URL"
+msgstr "כתובת ה URL ב Pinterest"
+
+#: includes/addons/team/class-lvca-team.php:279
+msgid "URL of the Pinterest page for the team member."
+msgstr "כתובת ה URL של עמוד ה Pinterest של חבר הצוות"
+
+#: includes/addons/team/class-lvca-team.php:286
+msgid "Dribbble Profile URL"
+msgstr "כתובת ה URL ב Dribbble"
+
+#: includes/addons/team/class-lvca-team.php:287
+msgid "URL of the Dribbble profile of the team member."
+msgstr "כתובת ה URL של פרופיל חבר הצוות ב Dribbble"
+
+#: includes/addons/team/class-lvca-team.php:294
+msgid "GooglePlus Page URL"
+msgstr "כתובת ה URL בגוגל פלוס"
+
+#: includes/addons/team/class-lvca-team.php:295
+msgid "URL of the Google Plus page of the team member."
+msgstr "כתובת ה URL של עמוד חבר הצוות בגוגל פלוס"
+
+#: includes/addons/team/class-lvca-team.php:302
+msgid "Instagram Page URL"
+msgstr "כתובת ה URL באינסטגרם"
+
+#: includes/addons/team/class-lvca-team.php:303
+msgid "URL of the Instagram feed for the team member."
+msgstr "כתובת ה URL של הזנת האינסטגרם של חבר הצוות"
+
+#: includes/addons/team/social-profile.php:14
+msgid "Follow on Facebook"
+msgstr "עקוב בפייסבוק"
+
+#: includes/addons/team/social-profile.php:16
+msgid "Subscribe to Twitter Feed"
+msgstr "הרשמה להזנת טוויטר"
+
+#: includes/addons/team/social-profile.php:18
+msgid "View LinkedIn Profile"
+msgstr "הצגת פרופיל LinkedIn"
+
+#: includes/addons/team/social-profile.php:20
+msgid "Follow on Google Plus"
+msgstr "עקוב בגוגל פלוס"
+
+#: includes/addons/team/social-profile.php:22
+msgid "View Instagram Feed"
+msgstr "הצגת הזנת אינסטגרם"
+
+#: includes/addons/team/social-profile.php:24
+msgid "Subscribe to Pinterest Feed"
+msgstr "הרשמה להזנת Pinterest"
+
+#: includes/addons/team/social-profile.php:26
+msgid "View Dribbble Portfolio"
+msgstr "הצגת תיק עבודות Dribbble"
+
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:142
+msgid "Livemesh Testimonials Slider"
+msgstr "סליידר משובים"
+
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:149
+msgid "Capture client testimonials in a slider."
+msgstr ""
+
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:157
+msgid "Slideshow speed"
+msgstr "מהירות המצגת"
+
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:164
+msgid "Animation Speed"
+msgstr "מהירות האנימציה"
+
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:171
+msgid "Pause slider on action."
+msgstr "עצירת המצגת בפעולה"
+
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:172
+msgid ""
+"Should the slideshow pause once user initiates an action using navigation/"
+"direction controls."
+msgstr "האם לעצור את המצגת כאשר המשתמש מבצע פעולה בניווט החצים"
+
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:179
+#: includes/mapper-functions.php:175
+msgid "Pause on Hover"
+msgstr "עצירה בריחוף העכבר"
+
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:180
+#: includes/mapper-functions.php:176
+msgid "Should the slider pause on mouse hover over the slider."
+msgstr "האם לעצור את המצגת כאשר העכבר מרחף מעליה"
+
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:187
+msgid "Direction Navigation"
+msgstr "ניווט חצים"
+
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:188
+msgid "Should the slider have direction navigation."
+msgstr "האם להציג ניווט חצים למצגת"
+
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:195
+msgid "Navigation Controls"
+msgstr "בקרי ניווט"
+
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:196
+msgid "Should the slider have navigation controls."
+msgstr "האם להציג בקרי ניווט"
+
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:210
+msgid "Testimonials"
+msgstr "משובים"
+
+#: includes/addons/testimonials-slider/class-lvca-testimonials-slider.php:213
+msgid "Livemesh Testimonial Slide"
+msgstr ""
+
+#: includes/addons/testimonials/class-lvca-testimonials.php:118
+msgid "Livemesh Testimonials"
+msgstr "משובים"
+
+#: includes/addons/testimonials/class-lvca-testimonials.php:125
+msgid "Display testimonials in a multi-column grid."
+msgstr ""
+
+#: includes/addons/testimonials/class-lvca-testimonials.php:137
+msgid ""
+"The number of testimonials members to display per row of the testimonials"
+msgstr ""
+
+#: includes/addons/testimonials/class-lvca-testimonials.php:150
+msgid "Livemesh Testimonial"
+msgstr ""
+
+#: includes/addons/testimonials/class-lvca-testimonials.php:163
+msgid "The author of the testimonial"
+msgstr "מחבר המשוב"
+
+#: includes/addons/testimonials/class-lvca-testimonials.php:168
+msgid "Author Details"
+msgstr "פרטי המחבר"
+
+#: includes/addons/testimonials/class-lvca-testimonials.php:169
+msgid ""
+"The details of the author like company name, position held, company URL etc."
+msgstr ""
+
+#: includes/addons/testimonials/class-lvca-testimonials.php:175
+msgid "Author Image"
+msgstr ""
+
+#: includes/addons/testimonials/class-lvca-testimonials.php:180
+msgid "Text"
+msgstr "טקסט"
+
+#: includes/addons/testimonials/class-lvca-testimonials.php:181
+msgid "What your client/customer has to say"
+msgstr ""
+
+#: includes/helper-functions.php:138
+msgid "M d, Y"
+msgstr ""
+
+#: includes/helper-functions.php:140 includes/helper-functions.php:144
+msgid "l, F, Y, g:i a"
+msgstr "l, F, Y, g:i a"
+
+#: includes/helper-functions.php:144
+msgid "Y"
+msgstr "Y"
+
+#: includes/helper-functions.php:144
+msgid "m"
+msgstr "Y"
+
+#: includes/helper-functions.php:144
+msgid "d"
+msgstr "d"
+
+#: includes/helper-functions.php:153
+msgid "By "
+msgstr "ע\"י"
+
+#: includes/helper-functions.php:175
+msgid "All"
+msgstr "הכל"
+
+#: includes/helper-functions.php:180
+msgid "View all items filed under "
+msgstr "הצגת שדה כל הפריטים ב "
+
+#: includes/mapper-functions.php:20 includes/mapper-functions.php:30
+#: includes/mapper-functions.php:38
+msgid "Desktop"
+msgstr ""
+
+#: includes/mapper-functions.php:25 includes/mapper-functions.php:54
+#: includes/mapper-functions.php:93
+msgid "Columns to scroll"
+msgstr "עמודות לגלילה"
+
+#: includes/mapper-functions.php:49 includes/mapper-functions.php:59
+#: includes/mapper-functions.php:67 includes/mapper-functions.php:77
+msgid "Tablet"
+msgstr "טאבלט"
+
+#: includes/mapper-functions.php:73 includes/mapper-functions.php:112
+msgid "Resolution"
+msgstr "רזולוציה"
+
+#: includes/mapper-functions.php:88 includes/mapper-functions.php:98
+#: includes/mapper-functions.php:106 includes/mapper-functions.php:116
+msgid "Mobile"
+msgstr ""
+
+#: includes/mapper-functions.php:134
+msgid "Prev/Next Arrows?"
+msgstr "חצי הקודם/הבא?"
+
+#: includes/mapper-functions.php:142
+msgid "Show dot indicators for navigation?"
+msgstr "להציג ניווט נקודות?"
+
+#: includes/mapper-functions.php:150
+msgid "Autoplay?"
+msgstr "הפעלה אוטומטית?"
+
+#: includes/mapper-functions.php:151
+msgid "Should the carousel autoplay as in a slideshow."
+msgstr "האם הקרוסלה צריכה לפעול אוטומטית כמצגת שקופיות?"
+
+#: includes/mapper-functions.php:159
+msgid "Autplay speed"
+msgstr ""
+
+#: includes/mapper-functions.php:167
+msgid "Autoplay animation speed in ms"
+msgstr "מהירות האנימציה באלפיות השניה"
+
+#: livemesh-vc-addons.php:78 livemesh-vc-addons.php:87
+msgid "Cheatin&#8217; huh?"
+msgstr "מרמה, אה?"
+
+#: livemesh-vc-addons.php:336
+msgid ""
+"Indicate if this row has a dark background color. Dark color scheme will be "
+"applied for all elements in this row."
+msgstr ""
+
+#~ msgid "Livemesh Button"
+#~ msgstr "כפתור"
+
+#~ msgid "Flat style buttons with rich set of customization options."
+#~ msgstr "כפתורים בעיצוב אחיד עם סט עשיר של אפשרויות עיצוב"
+
+#~ msgid "Color"
+#~ msgstr "צבע"
+
+#~ msgid "Default"
+#~ msgstr "ברירת מחדל"
+
+#~ msgid "Custom"
+#~ msgstr "התאמה אישית"
+
+#~ msgid "Black"
+#~ msgstr "שחור"
+
+#~ msgid "Blue"
+#~ msgstr "כחול"
+
+#~ msgid "Cyan"
+#~ msgstr "טורקיז"
+
+#~ msgid "Green"
+#~ msgstr "ירוק"
+
+#~ msgid "Orange"
+#~ msgstr "כתום"
+
+#~ msgid "Pink"
+#~ msgstr "ורוד"
+
+#~ msgid "Red"
+#~ msgstr "אדום"
+
+#~ msgid "Teal"
+#~ msgstr "ירוק כחלחל"
+
+#~ msgid "Transparent"
+#~ msgstr "שקוף"
+
+#~ msgid "Semi Transparent"
+#~ msgstr "שקוף למחצה"
+
+#~ msgid "The color of the button."
+#~ msgstr "צבע הכפתור"
+
+#~ msgid "Medium"
+#~ msgstr "בינוני"
+
+#~ msgid "Small"
+#~ msgstr "קטן"
+
+#~ msgid "Alignment"
+#~ msgstr "יישור"
+
+#~ msgid "Image"
+#~ msgstr "תמונה"
+
+#~ msgid "YouTube Video"
+#~ msgstr "סרטון יוטיוב"
+
+#~ msgid "Heading for the grid"
+#~ msgstr "כותרת הרשת"
+
+#~ msgid "Responsive"
+#~ msgstr "רספונסיבי"
+
+#~ msgid "Livemesh Icon List"
+#~ msgstr "רשימת צלמיות"
+
+#~ msgid ""
+#~ "Use images or icon fonts to create social icons list, show payment "
+#~ "options etc."
+#~ msgstr ""
+#~ "שימוש בגופני צלמית או תמונה ליצירת רשימת צלמיות מדיה חברתית, אפשרויות "
+#~ "תשלום וכדומה."
+
+#~ msgid "Icon/Image size in pixels"
+#~ msgstr "גודל הצלמית / תמונה בפיקסלים"
+
+#~ msgid "Icon color"
+#~ msgstr "צבע הצלמית"
+
+#~ msgid "Target URL"
+#~ msgstr "כתובת יעד"
+
+#~ msgid "Button URL"
+#~ msgstr "כתובת הכפתור"
+
+#~ msgid "Button Size"
+#~ msgstr "גודל הכפתור"
+
+#~ msgid "HTML Elements"
+#~ msgstr "רכיבי HTML"
+
+#~ msgid "HTML Element"
+#~ msgstr "רכיב HTML"
+
+#~ msgid "Carousel Settings"
+#~ msgstr "הגדרות קרוסלה"
+
+#~ msgid "Pause on mouse hover?"
+#~ msgstr "לעצור בריחוף עכבר?"
+
+#~ msgid "Autoplay speed in ms"
+#~ msgstr "מהירות הקרוסלה באלפיות השניה"
+
+#~ msgid "The title to identify the HTML element"
+#~ msgstr "כותרת לזיהוי רכיב ה HTML"
+
+#~ msgid "The HTML content for the carousel item."
+#~ msgstr "תוכן ה HTML עבור פריט הקרוסלה"
+
+#~ msgid "Display one or more clients in a multi-column grid."
+#~ msgstr "להצגת לקוח אחד או יותר ברשת עמודות"
+
+#~ msgid "Clients"
+#~ msgstr "לקוחות"
+
+#~ msgid "Client"
+#~ msgstr "לקוח"
+
+#~ msgid "Client Name"
+#~ msgstr "שם הלקוח"
+
+#~ msgid "The name of the client/customer."
+#~ msgstr "שם הלקוח"
+
+#~ msgid "Client Logo"
+#~ msgstr "הלוגו של הלקוח"
+
+#~ msgid "Create heading for display on the top of a section."
+#~ msgstr "יצירת כותרת להצגה בראש מקטע"
+
+#~ msgid "Heading Title"
+#~ msgstr "כותרת הכותר"
+
+#~ msgid "Subheading"
+#~ msgstr "כותרת משנה"
+
+#~ msgid "Alignment of the heading."
+#~ msgstr "יישור הכותרת"
+
+#~ msgid "Odometers per row"
+#~ msgstr "מספר מדדים בשורה"
+
+#~ msgid "Odometers"
+#~ msgstr "מדדים"
+
+#~ msgid "Odometer"
+#~ msgstr "מדד"
+
+#~ msgid "The title for the odometer stats"
+#~ msgstr "הכותרת של סטטיסטיקת המדד"
+
+#~ msgid "Stats Image."
+#~ msgstr "תמונת סטטיסטיקה"
+
+#~ msgid "Stats Icon."
+#~ msgstr "צלמית סטטיסטיקה"
+
+#~ msgid "Piecharts"
+#~ msgstr "תרשימי עוגה"
+
+#~ msgid "Piechart"
+#~ msgstr "תרשים עוגה"
+
+#~ msgid "The title for the piechart"
+#~ msgstr "כותרת תרשים עוגה"
+
+#~ msgid ""
+#~ "Choose the taxonomy information to display for posts/portfolio and the "
+#~ "taxonomy that is used to filter the portfolio/post. Takes effect only if "
+#~ "no taxonomy filters are specified when building query."
+#~ msgstr ""
+#~ "בחירת מידע הטקסונומיה לסינון הצגת הפוסטים. בשימוש רק אם לא צוין מסנן "
+#~ "טקסונומי בשאילתה"
+
+#~ msgid "Link the image to the post/portfolio?"
+#~ msgstr "לקשר את התמונה לפוסט?"
+
+#~ msgid "Display project title below the post/portfolio?"
+#~ msgstr "להציג את הכותרת מתחת לפוסט?"
+
+#~ msgid "Display project excerpt/summary below the post/portfolio?"
+#~ msgstr "להציג למטה תקציר?"
+
+#~ msgid "Choose a layout for the grid"
+#~ msgstr "בחירת פריסה עבור הרשת"
+
+#~ msgid "Space between columns in masonry grid."
+#~ msgstr "המרווח בין העמודות ברשת בניה"
+
+#~ msgid "Post Meta"
+#~ msgstr "תיאור פוסט"
+
+#~ msgid "Pricing Plan"
+#~ msgstr "חבילת מחיר"
+
+#~ msgid "Services"
+#~ msgstr "שירותים"
+
+#~ msgid "Service"
+#~ msgstr "שירות"
+
+#~ msgid "Short description"
+#~ msgstr "תיאור קצר"
+
+#~ msgid "Service Icon."
+#~ msgstr "צלמית שירות"
+
+#~ msgid "Stats Bars"
+#~ msgstr "לוחות סטטיסטיקה"
+
+#~ msgid "Stats Bar"
+#~ msgstr "לוח סטטיסטיקה"
+
+#~ msgid "The title for the stats bar"
+#~ msgstr "הכותרת של לוח הסטטיסטיקה"
+
+#~ msgid "Livemesh Team Members"
+#~ msgstr "צוות"
+
+#~ msgid "Send an email"
+#~ msgstr "שליחת אימייל"
+
+#~ msgid "Team Members"
+#~ msgstr "צוות"
+
+#~ msgid "Team Member"
+#~ msgstr "חבר צוות"
+
+#~ msgid "Team member image."
+#~ msgstr "תמונת החבר בצוות"
+
+#~ msgid "Class"
+#~ msgstr "מחלקה"
+
+#~ msgid "Testimonial"
+#~ msgstr "משוב"
+
+#~ msgid ""
+#~ "The details of the author like company name, position held, company URL "
+#~ "etc. HTML accepted."
+#~ msgstr ""
+#~ "פרטי מחבר המשוב כמו שם החברה, תפקיד, כתובת האתר של החברה וכד'. אפשר "
+#~ "להשתמש ב HTML"
+
+#~ msgid "What your customer had to say"
+#~ msgstr "מה הלקוח שלך אומר"
+
+#~ msgid ""
+#~ "Displays collapsible content panels to help display information when "
+#~ "space is limited."
+#~ msgstr "הצגת תיבות תוכן סגירות המאפשרות לנציג מידע במקום מוגבל"
+
+#~ msgid "Panel"
+#~ msgstr "לוח"
+
+#~ msgid "The title for the panel."
+#~ msgstr "הכותרת של הלוח"
+
+#~ msgid "The URL to which button should point to."
+#~ msgstr "הכתובת אליה מפנה הכפתור"
+
+#~ msgid "http://targeturl.com"
+#~ msgstr "http://targeturl.com"
+
+#~ msgid "Open the link in new window"
+#~ msgstr "פתיחת הקישור בחלון חדש"
+
+#~ msgid "The button title or text. "
+#~ msgstr "כותרת או טקסט הכפתור. "
+
+#~ msgid "Buy Now"
+#~ msgstr "קניה"
+
+#~ msgid "The CSS class name for the button element."
+#~ msgstr "שם מחלקת ה CSS עבור הכפתור"
+
+#~ msgid "Inline CSS styling for the button element."
+#~ msgstr "קוד עיצוב CSS עבור רכיב הכפתור"
+
+#~ msgid "Style"
+#~ msgstr "עיצוב"
+
+#~ msgid "Alignment of the button displayed."
+#~ msgstr "יישור הכפתור"
+
+#~ msgid "Custom color of the button."
+#~ msgstr "התאמה אישית של צבע הכפתור"
+
+#~ msgid "Custom button color"
+#~ msgstr "צבע כפתור מותאם אישית"
+
+#~ msgid "Hover color of the button."
+#~ msgstr "צבע הכפתור בריחוף עכבר"
+
+#~ msgid "Custom button hover color"
+#~ msgstr "צבע הכפתור בריחוף עכבר"
+
+#~ msgid "Large"
+#~ msgstr "גדול"
+
+#~ msgid "Display rounded button?"
+#~ msgstr "להציג כפתור מעוגל?"
+
+#~ msgid "Icon List"
+#~ msgstr "רשימת צלמיות"
+
+#~ msgid "Open the links in new window"
+#~ msgstr "פתיחת הקישור בחלון חדש"
+
+#~ msgid "Icon hover color"
+#~ msgstr "צבע הצלמית בריחוף עכבר"
+
+#~ msgid "Title for the Icon."
+#~ msgstr "כותרת הצלמית"
+
+#~ msgid "Icon Image."
+#~ msgstr "תמונת צלמית"
+
+#~ msgid "Icon."
+#~ msgstr "צלמית"
+
+#~ msgid "The URL to which icon/image should point to. (optional)"
+#~ msgstr "כתובת ה URL שהצלמית / תמונה יפנו אליה (רשות)."
+
+#~ msgid "Button text"
+#~ msgstr "טקסט הכפתור"
+
+#~ msgid "Open URL in a new window"
+#~ msgstr "פתיחת הקישור בחלון חדש"
+
+#~ msgid "Tab Style 1"
+#~ msgstr "עיצוב 1"
+
+#~ msgid "Tab Style 2"
+#~ msgstr "עיצוב 2"
+
+#~ msgid "Tab Style 3"
+#~ msgstr "עיצוב 3"
+
+#~ msgid "Tab Style 4"
+#~ msgstr "עיצוב 4"
+
+#~ msgid "Tab Style 5"
+#~ msgstr "עיצוב 5"
+
+#~ msgid "Tab Style 6"
+#~ msgstr "עיצוב 6"
+
+#~ msgid "Vertical Tab Style 1"
+#~ msgstr "עיצוב אנכי 1"
+
+#~ msgid "Vertical Tab Style 2"
+#~ msgstr "עיצוב אנכי 2"
+
+#~ msgid "Vertical Tab Style 3"
+#~ msgstr "עיצוב אנכי 3"
+
+#~ msgid "Vertical Tab Style 4"
+#~ msgstr "עיצוב אנכי 4"
+
+#~ msgid "Tab highlight color"
+#~ msgstr "צבע הבלטת הלשונית"
+
+#~ msgid "Tab Icon."
+#~ msgstr "צלמית הלשונית"
+
+#~ msgid "Please enter custom CSS for custom styling of widgets"
+#~ msgstr "נא להזין קוד CSS לעיצוב הוידג'טים"
+
+#~ msgid "Plugins → SiteOrigin Widgets"
+#~ msgstr "תוספים ← וידג'טים של SiteOrigin"
+
+#~ msgid "Appearance→Widgets"
+#~ msgstr "עיצוב ← וידג'טים"
+
+#~ msgid "SiteOrigin Widgets Bundle"
+#~ msgstr "SiteOrigin Widgets Bundle"
+
+#~ msgid "Install SiteOrigin Widgets Bundle"
+#~ msgstr "נא להתקין את SiteOrigin Widgets Bundle"
+
+#~ msgid "SiteOrigin Page Builder"
+#~ msgstr "בנאי הדפים"
+
+#~ msgid "Install SiteOrigin Page Builder"
+#~ msgstr "נא להתקין את בנאי הדפים"
+
+#~ msgid "Auto load"
+#~ msgstr "טעינה אוטומטיתת"
+
+#~ msgid "Activate all plugin widgets"
+#~ msgstr "הפעלת כל הוידג'טים של התוסף"
+
+#~ msgid "You can selectively activate plugin widgets in"
+#~ msgstr "אפשר להפעיל את הוידג'טים של התוסף באופן סלקטיבי ב"
+
+#~ msgid "Plugins->SiteOrigin Widgets."
+#~ msgstr "תוספים ← וידג'טים של SiteOrigin,"
+
+#~ msgid ""
+#~ "Or you can choose to auto activate all the widgets part of this plugin by "
+#~ "checking below."
+#~ msgstr ""
+#~ "לחילופין ניתן להפעיל אוטומטית את כל הוידג'טים של התוסף על-ידי סימון להלן."
+
+#~ msgid "Accordion"
+#~ msgstr "אקורדיאון"
+
+#~ msgid "Button Text"
+#~ msgstr "טקסט הכפתור"
+
+#~ msgid "Pricing Columns per row"
+#~ msgstr "מספר עמודות בשורה"
+
+#~ msgid "Tabs"
+#~ msgstr "לשוניות"
+
+#~ msgid "Display a collection of html elements as a carousel."
+#~ msgstr "הצגת אוסף רכיבי HTML בקרוסלה"
+
+#~ msgid "General Settings"
+#~ msgstr "הגדרות כלליות"
+
+#~ msgid ""
+#~ "Custom CSS for presentation of the HTML elements. Will be embedded inline "
+#~ "with the page."
+#~ msgstr "Eטד עיצוב CSS עבור מצגת רכיבי HTML. יוטמע בשורה בעמוד."
+
+#~ msgid "Mobile Phone"
+#~ msgstr "טלפון נייד"
+
+#~ msgid "Livemesh Hero Header"
+#~ msgstr "כותרת מלכותית"
+
+#~ msgid "Display a hero background with video or image background."
+#~ msgstr "הצגת רקע מלכותי עם וידאו או תמונה"
+
+#~ msgid "Header Type"
+#~ msgstr "סוג הכותרת"
+
+#~ msgid "Standard"
+#~ msgstr "רגיל"
+
+#~ msgid "Custom Header"
+#~ msgstr "כותרת בהתאמה אישית"
+
+#~ msgid "Custom text"
+#~ msgstr "טקסט בהתאמה אישית"
+
+#~ msgid ""
+#~ "Custom CSS for presentation of the Custom header elements. Will be "
+#~ "embedded inline with the page."
+#~ msgstr ""
+#~ "קוד עיצוב CSS עבור רכיבי הכותרת בהתאמה אישית. הקוד יוטמע בשורה בעמוד"
+
+#~ msgid "Standard Header"
+#~ msgstr "כותרת רגילה"
+
+#~ msgid "Header text"
+#~ msgstr "טקסט הכותרת"
+
+#~ msgid "Sub-heading text"
+#~ msgstr "טקסט כותרת המשנה"
+
+#~ msgid "URL for Pointer Down"
+#~ msgstr "כתובת URL עבור המצביע מטה"
+
+#~ msgid ""
+#~ "If an URL for the pointer down is specified, the hero image will sport a "
+#~ "pointer down indicator to help user smooth scroll to the section "
+#~ "indicated by this URL."
+#~ msgstr ""
+#~ "אם תצוין כתובת URL עבור המצביע מטה, על התמונה המלכותית יוצג מצביע "
+#~ "מטהשיאפשר למשתמש לבצע גלילה חלקה למקטע שאליו מפנה כתובת URL זו."
+
+#~ msgid "Background"
+#~ msgstr "רקע"
+
+#~ msgid "Background Type"
+#~ msgstr "סוג רקע"
+
+#~ msgid "Cover Image"
+#~ msgstr "תמונת רקע"
+
+#~ msgid "Parallax Image"
+#~ msgstr "תמונת פאראלקס"
+
+#~ msgid "HTML5 Video"
+#~ msgstr "סרטון HTML5"
+
+#~ msgid "YouTube Background Video"
+#~ msgstr "סרטון רקע מיוטיוב"
+
+#~ msgid "YouTube URL"
+#~ msgstr "כתובת יוטיוב"
+
+#~ msgid ""
+#~ "An URL of the YouTube video that will act as background video for this "
+#~ "section."
+#~ msgstr "כתובת URL של הסרטון ביוטיוב שישמש כסרטון רקע עבור מקטע זה"
+
+#~ msgid "Choose the YouTube video quality"
+#~ msgstr "בחירת איכות הסרטון מיוטיוב"
+
+#~ msgid "High Resolution"
+#~ msgstr "רזולוציה גבוהה"
+
+#~ msgid "HD 720p"
+#~ msgstr "HD 720p"
+
+#~ msgid "HD 1080p"
+#~ msgstr "HD 1080p"
+
+#~ msgid "Aspect ratio of the YouTube video"
+#~ msgstr "יחס הרוחב והגובה של הסרטון מיוטיוב"
+
+#~ msgid "16/9"
+#~ msgstr "16/9"
+
+#~ msgid "Auto"
+#~ msgstr "אוטומט"
+
+#~ msgid "4/3"
+#~ msgstr "4/3"
+
+#~ msgid "HTML5 Background videos"
+#~ msgstr "סרטון רקע HTML5"
+
+#~ msgid "MP4 Video file"
+#~ msgstr "קובץ סרטון MP4"
+
+#~ msgid "WebM Video file"
+#~ msgstr "קובץ סרטון WebM"
+
+#~ msgid "Ogg Video file"
+#~ msgstr "קובץ סרטון Ogg"
+
+#~ msgid "Background Image"
+#~ msgstr "תמונת רקע"
+
+#~ msgid ""
+#~ "This background image will be used as a placeholder image if YouTube or "
+#~ "HTML5 video background option is chosen."
+#~ msgstr ""
+#~ "תמונת הרקע תשמש כתמונת צוין מיקום אם נבחרה אפשרות של סרטון רקע מסוג HTML5"
+
+#~ msgid "Background Overlay"
+#~ msgstr "שכבה מעל הרקע"
+
+#~ msgid "Overlay color"
+#~ msgstr "צבע השכבה מעל"
+
+#~ msgid "Overlay opacity"
+#~ msgstr "שקיפות השכבה מעל"
+
+#~ msgid "Top padding"
+#~ msgstr "מרווח עליון"
+
+#~ msgid "Bottom padding"
+#~ msgstr "מרווח תחתון"
+
+#~ msgid "Display statistics as animated odometers in a multi-column grid."
+#~ msgstr "הצגת סטטיסטיקה כאנימציית מד מרחק ברשת עמודות"
+
+#~ msgid "Display statistics or skills as a percentage piechart."
+#~ msgstr "הצגת סטטיסטיקה או כישורים בתרשימי עוגה"
+
+#~ msgid ""
+#~ "Showcase your work or posts or any custom post types with a filterable "
+#~ "portfolio layout. Make sure that Portfolio Post Type plugin is activated"
+#~ msgstr "תצוגת רשת של העבודה שלך או של כל סוג פוסט בפריסה מסוננת."
+
+#~ msgid ""
+#~ "After you build the query, make sure you choose the right taxonomy below "
+#~ "to display for your posts and filter on, based on the post type selected "
+#~ "during build query."
+#~ msgstr ""
+#~ "עם סיום בניית השאילתה, נא לוודא שבחרת את הטקסונומיה הנכונה להצגת הפוסטים "
+#~ "הנכונים בהתבסס על סוג הפוסט שבחרת"
+
+#~ msgid "Display blog posts or custom post types as a carousel"
+#~ msgstr "הצגת פוסטים או סוגי פוסט כקרוסלה"
+
+#~ msgid "Pricing Table"
+#~ msgstr "טבלת מחירים"
+
+#~ msgid "Pricing Item"
+#~ msgstr "מחיר פריט"
+
+#~ msgid "Value"
+#~ msgstr "ערך"
+
+#~ msgid "Create services to display in a column grid."
+#~ msgstr "יצירת שירותים להצגה ברשת עמודות"
+
+#~ msgid "Display statistics or skills as a percentage stats bar."
+#~ msgstr "הצגת סטטיסטיקה או כישורים כאחוזים בלוחות סטטיסטיקה"
+
+#~ msgid "Single Tab"
+#~ msgstr "לשונית יחידה"
+
+#~ msgid "Create team members to display in a column grid."
+#~ msgstr "יצירת חברי צוות להצגה ברשת עמודות"
+
+#~ msgid "Social profile"
+#~ msgstr "פרופיל חברתי"
+
+#~ msgid "Share your product/service testimonials in a responsive slider."
+#~ msgstr "שיתוף המשובים על השירות/מוצר שלך בסליידר רספונסיבי"
+
+#~ msgid "Display testimonials in a responsive multi-column grid."
+#~ msgstr "הצגת משובים בתצוגת רשת עמודות רספונסיבית"
+
+#~ msgid "Livemesh Widgets"
+#~ msgstr "ווידג'טים של  Livemesh"
+
+#~ msgid "Livemesh SiteOrigin Widgets"
+#~ msgstr "ווידג'טים של  Livemesh עבור בנאי הדפים"
+
+#~ msgid "Livemesh Widgets→Settings"
+#~ msgstr "וידג'טים של Livemesh ← הגדרות"
+
+#~ msgid "Top Padding"
+#~ msgstr "מרווח עליון"
+
+#~ msgid "Top Padding for the row."
+#~ msgstr "מרווח עליון של השורה"
+
+#~ msgid "Bottom Padding"
+#~ msgstr "מרווח תחתון"
+
+#~ msgid "Bottom Padding for the row."
+#~ msgstr "מרווח תחתון של השורה"
+
+#~ msgid "Top Padding in Tablet resolution"
+#~ msgstr "מרווח עליון ברזולוציית טאבלט"
+
+#~ msgid "Top Padding for the row in tablet resolutions."
+#~ msgstr "מרווח עליון של השורה ברזולוציית טאבלט"
+
+#~ msgid "Bottom Padding in Tablet resolution"
+#~ msgstr "מרווח תחתון ברזולוציית טאבלט"
+
+#~ msgid "Bottom Padding for the row in tablet resolutions."
+#~ msgstr "מרווח תחתון של השורה ברזולוציית טאבלט"
+
+#~ msgid "Top Padding in Mobile resolution"
+#~ msgstr "מרווח עליון ברזולוציית טלפון נייד"
+
+#~ msgid "Top Padding for the row in mobile resolutions."
+#~ msgstr "מרווח עליון של השורה ברזולוציית טלפון נייד"
+
+#~ msgid "Bottom Padding in Mobile resolution"
+#~ msgstr "מרווח תחתון ברזולוציית טלפון נייד"
+
+#~ msgid "Bottom Padding for the row in mobile resolutions."
+#~ msgstr "מרווח תחתון של השורה ברזולוציית טלפון נייד"
+
+#~ msgid "Dark Background?"
+#~ msgstr "רקע כהה?"

@@ -1,0 +1,457 @@
+/* --------------- Reset styles --------- */
+.lvca-container ol, .lvca-container ul, .lvca-container ol > li, .lvca-container ul > li, .lvca-container ol:hover, .lvca-container ul:hover, .lvca-container ul > li:hover, .lvca-container ol > li:hover, .lvca-container ol > li > a, .lvca-container ul > li > a, .lvca-container ol > li > a:hover, .lvca-container ul > li > a:hover, .lvca-container img, .lvca-grid-container ol, .lvca-grid-container ul, .lvca-grid-container ol > li, .lvca-grid-container ul > li, .lvca-grid-container ol:hover, .lvca-grid-container ul:hover, .lvca-grid-container ul > li:hover, .lvca-grid-container ol > li:hover, .lvca-grid-container ol > li > a, .lvca-grid-container ul > li > a, .lvca-grid-container ol > li > a:hover, .lvca-grid-container ul > li > a:hover, .lvca-grid-container img {
+  padding: 0;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  list-style: none;
+  background: none; }
+  .lvca-container ol:before, .lvca-container ol:after, .lvca-container ul:before, .lvca-container ul:after, .lvca-container ol > li:before, .lvca-container ol > li:after, .lvca-container ul > li:before, .lvca-container ul > li:after, .lvca-container ol:hover:before, .lvca-container ol:hover:after, .lvca-container ul:hover:before, .lvca-container ul:hover:after, .lvca-container ul > li:hover:before, .lvca-container ul > li:hover:after, .lvca-container ol > li:hover:before, .lvca-container ol > li:hover:after, .lvca-container ol > li > a:before, .lvca-container ol > li > a:after, .lvca-container ul > li > a:before, .lvca-container ul > li > a:after, .lvca-container ol > li > a:hover:before, .lvca-container ol > li > a:hover:after, .lvca-container ul > li > a:hover:before, .lvca-container ul > li > a:hover:after, .lvca-container img:before, .lvca-container img:after, .lvca-grid-container ol:before, .lvca-grid-container ol:after, .lvca-grid-container ul:before, .lvca-grid-container ul:after, .lvca-grid-container ol > li:before, .lvca-grid-container ol > li:after, .lvca-grid-container ul > li:before, .lvca-grid-container ul > li:after, .lvca-grid-container ol:hover:before, .lvca-grid-container ol:hover:after, .lvca-grid-container ul:hover:before, .lvca-grid-container ul:hover:after, .lvca-grid-container ul > li:hover:before, .lvca-grid-container ul > li:hover:after, .lvca-grid-container ol > li:hover:before, .lvca-grid-container ol > li:hover:after, .lvca-grid-container ol > li > a:before, .lvca-grid-container ol > li > a:after, .lvca-grid-container ul > li > a:before, .lvca-grid-container ul > li > a:after, .lvca-grid-container ol > li > a:hover:before, .lvca-grid-container ol > li > a:hover:after, .lvca-grid-container ul > li > a:hover:before, .lvca-grid-container ul > li > a:hover:after, .lvca-grid-container img:before, .lvca-grid-container img:after {
+    display: none; }
+.lvca-container a, .lvca-grid-container a {
+  text-decoration: initial; }
+.lvca-container img, .lvca-grid-container img {
+  max-width: 100%;
+  width: auto;
+  height: auto; }
+
+/* ------- General styles ------------ */
+.lvca-container {
+  margin-left: auto;
+  margin-right: auto; }
+  .lvca-container::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+.panel-grid .widget {
+  border: 0; }
+
+.lvca-center {
+  text-align: center; }
+
+.lvca-grid-container {
+  margin-left: -20px;
+  margin-right: -20px;
+  width: calc(100% + 40px); }
+  .lvca-grid-container::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .lvca-grid-container .lvca-onecol, .lvca-grid-container .lvca-twocol, .lvca-grid-container .lvca-threecol, .lvca-grid-container .lvca-fourcol, .lvca-grid-container .lvca-fivecol, .lvca-grid-container .lvca-sixcol, .lvca-grid-container .lvca-sevencol, .lvca-grid-container .lvca-eightcol, .lvca-grid-container .lvca-ninecol, .lvca-grid-container .lvca-tencol, .lvca-grid-container .lvca-elevencol, .lvca-grid-container .lvca-twelvecol {
+    min-height: 1px;
+    /* Prevents columns from collapsing when housing absolute elements or when lazy loading content */ }
+  .lvca-grid-container .lvca-onecol, .lvca-grid-container .lvca-twocol {
+    width: calc(50% - 30px);
+    float: left;
+    margin-left: 20px; }
+  .lvca-grid-container .lvca-threecol, .lvca-grid-container .lvca-fourcol, .lvca-grid-container .lvca-fivecol, .lvca-grid-container .lvca-sixcol, .lvca-grid-container .lvca-sevencol, .lvca-grid-container .lvca-eightcol, .lvca-grid-container .lvca-ninecol, .lvca-grid-container .lvca-tencol, .lvca-grid-container .lvca-elevencol, .lvca-grid-container .lvca-twelvecol {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px; }
+  @media (max-width: 479px) {
+    .lvca-grid-container .lvca-onecol:nth-child(2n+1), .lvca-grid-container .lvca-twocol:nth-child(2n+1) {
+      clear: left; } }
+  @media only screen and (min-width: 480px) {
+    .lvca-grid-container .lvca-onecol, .lvca-grid-container .lvca-twocol {
+      width: calc(33.3333333333% - 26.6666666667px);
+      float: left;
+      margin-left: 20px; }
+    .lvca-grid-container .lvca-threecol, .lvca-grid-container .lvca-fourcol, .lvca-grid-container .lvca-fivecol, .lvca-grid-container .lvca-sixcol, .lvca-grid-container .lvca-sevencol, .lvca-grid-container .lvca-eightcol, .lvca-grid-container .lvca-ninecol {
+      width: calc(50% - 30px);
+      float: left;
+      margin-left: 20px; }
+    .lvca-grid-container .lvca-tencol, .lvca-grid-container .lvca-elevencol {
+      width: calc(66.6666666667% - 33.3333333333px);
+      float: left;
+      margin-left: 20px; }
+    .lvca-grid-container .lvca-twelvecol {
+      width: calc(100% - 40px);
+      float: left;
+      margin-left: 20px; } }
+  @media (min-width: 480px) and (max-width: 800px) {
+    .lvca-grid-container .lvca-onecol:nth-child(3n+1), .lvca-grid-container .lvca-twocol:nth-child(3n+1) {
+      clear: left; }
+    .lvca-grid-container .lvca-threecol:nth-child(2n+1), .lvca-grid-container .lvca-fourcol:nth-child(2n+1), .lvca-grid-container .lvca-fivecol:nth-child(2n+1), .lvca-grid-container .lvca-sixcol:nth-child(2n+1), .lvca-grid-container .lvca-sevencol:nth-child(2n+1), .lvca-grid-container .lvca-eightcol:nth-child(2n+1), .lvca-grid-container .lvca-ninecol:nth-child(2n+1) {
+      clear: left; } }
+  @media only screen and (min-width: 801px) {
+    .lvca-grid-container .lvca-onecol {
+      width: calc(8.3333333333% - 21.6666666667px);
+      float: left;
+      margin-left: 20px; }
+      .lvca-grid-container .lvca-onecol:nth-child(12n+1) {
+        clear: left; }
+    .lvca-grid-container .lvca-twocol {
+      width: calc(16.6666666667% - 23.3333333333px);
+      float: left;
+      margin-left: 20px; }
+      .lvca-grid-container .lvca-twocol:nth-child(6n+1) {
+        clear: left; }
+    .lvca-grid-container .lvca-threecol {
+      width: calc(25% - 25px);
+      float: left;
+      margin-left: 20px; }
+      .lvca-grid-container .lvca-threecol:nth-child(4n+1) {
+        clear: left; }
+    .lvca-grid-container .lvca-fourcol {
+      width: calc(33.3333333333% - 26.6666666667px);
+      float: left;
+      margin-left: 20px; }
+      .lvca-grid-container .lvca-fourcol:nth-child(3n+1) {
+        clear: left; }
+    .lvca-grid-container .lvca-fivecol {
+      width: calc(41.6666666667% - 28.3333333333px);
+      float: left;
+      margin-left: 20px; }
+    .lvca-grid-container .lvca-sixcol {
+      width: calc(50% - 30px);
+      float: left;
+      margin-left: 20px; }
+      .lvca-grid-container .lvca-sixcol:nth-child(2n+1) {
+        clear: left; }
+    .lvca-grid-container .lvca-sevencol {
+      width: calc(58.3333333333% - 31.6666666667px);
+      float: left;
+      margin-left: 20px; }
+    .lvca-grid-container .lvca-eightcol {
+      width: calc(66.6666666667% - 33.3333333333px);
+      float: left;
+      margin-left: 20px; }
+    .lvca-grid-container .lvca-ninecol {
+      width: calc(75% - 35px);
+      float: left;
+      margin-left: 20px; }
+    .lvca-grid-container .lvca-tencol {
+      width: calc(83.3333333333% - 36.6666666667px);
+      float: left;
+      margin-left: 20px; }
+    .lvca-grid-container .lvca-elevencol {
+      width: calc(91.6666666667% - 38.3333333333px);
+      float: left;
+      margin-left: 20px; }
+    .lvca-grid-container .lvca-twelvecol {
+      width: calc(100% - 40px);
+      float: left;
+      margin-left: 20px; } }
+
+/*--------- Support for 5 column grid ----*/
+.lvca-grid-container .lvca-onefifth {
+  min-height: 1px; }
+.lvca-grid-container .lvca-onefifth {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+@media only screen and (min-width: 480px) {
+  .lvca-grid-container .lvca-onefifth {
+    width: calc(50% - 30px);
+    float: left;
+    margin-left: 20px; } }
+@media (min-width: 480px) and (max-width: 800px) {
+  .lvca-grid-container .lvca-onefifth:nth-child(2n+1) {
+    clear: left; } }
+@media only screen and (min-width: 801px) {
+  .lvca-grid-container .lvca-onefifth {
+    width: calc(20% - 24px);
+    float: left;
+    margin-left: 20px; }
+    .lvca-grid-container .lvca-onefifth:nth-child(5n+1) {
+      clear: left; } }
+
+/*--------- Gapless grid columns ----*/
+.lvca-gapless-grid.lvca-grid-container, .lvca-gapless-grid .lvca-grid-container {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: auto; }
+.lvca-gapless-grid .lvca-onecol, .lvca-gapless-grid .lvca-twocol {
+  width: calc(50%);
+  float: left;
+  margin-left: 0px; }
+.lvca-gapless-grid .lvca-threecol, .lvca-gapless-grid .lvca-fourcol, .lvca-gapless-grid .lvca-fivecol, .lvca-gapless-grid .lvca-sixcol, .lvca-gapless-grid .lvca-sevencol, .lvca-gapless-grid .lvca-eightcol, .lvca-gapless-grid .lvca-ninecol, .lvca-gapless-grid .lvca-tencol, .lvca-gapless-grid .lvca-elevencol, .lvca-gapless-grid .lvca-twelvecol, .lvca-gapless-grid .lvca-onefifth {
+  width: calc(100%);
+  float: left;
+  margin-left: 0px; }
+@media only screen and (min-width: 480px) {
+  .lvca-gapless-grid .lvca-onecol, .lvca-gapless-grid .lvca-twocol {
+    width: calc(33.3333333333%);
+    float: left;
+    margin-left: 0px; }
+  .lvca-gapless-grid .lvca-threecol, .lvca-gapless-grid .lvca-fourcol, .lvca-gapless-grid .lvca-fivecol, .lvca-gapless-grid .lvca-sixcol, .lvca-gapless-grid .lvca-sevencol, .lvca-gapless-grid .lvca-eightcol, .lvca-gapless-grid .lvca-ninecol, .lvca-gapless-grid .lvca-onefifth {
+    width: calc(50%);
+    float: left;
+    margin-left: 0px; }
+  .lvca-gapless-grid .lvca-tencol, .lvca-gapless-grid .lvca-elevencol {
+    width: calc(66.6666666667%);
+    float: left;
+    margin-left: 0px; }
+  .lvca-gapless-grid .lvca-twelvecol {
+    width: calc(100%);
+    float: left;
+    margin-left: 0px; } }
+@media only screen and (min-width: 801px) {
+  .lvca-gapless-grid .lvca-onecol {
+    width: calc(8.3333333333%);
+    float: left;
+    margin-left: 0px; }
+  .lvca-gapless-grid .lvca-twocol {
+    width: calc(16.6666666667%);
+    float: left;
+    margin-left: 0px; }
+  .lvca-gapless-grid .lvca-threecol {
+    width: calc(25%);
+    float: left;
+    margin-left: 0px; }
+  .lvca-gapless-grid .lvca-fourcol {
+    width: calc(33.3333333333%);
+    float: left;
+    margin-left: 0px; }
+  .lvca-gapless-grid .lvca-fivecol {
+    width: calc(41.6666666667%);
+    float: left;
+    margin-left: 0px; }
+  .lvca-gapless-grid .lvca-sixcol {
+    width: calc(50%);
+    float: left;
+    margin-left: 0px; }
+  .lvca-gapless-grid .lvca-sevencol {
+    width: calc(58.3333333333%);
+    float: left;
+    margin-left: 0px; }
+  .lvca-gapless-grid .lvca-eightcol {
+    width: calc(66.6666666667%);
+    float: left;
+    margin-left: 0px; }
+  .lvca-gapless-grid .lvca-ninecol {
+    width: calc(75%);
+    float: left;
+    margin-left: 0px; }
+  .lvca-gapless-grid .lvca-tencol {
+    width: calc(83.3333333333%);
+    float: left;
+    margin-left: 0px; }
+  .lvca-gapless-grid .lvca-elevencol {
+    width: calc(91.6666666667%);
+    float: left;
+    margin-left: 0px; }
+  .lvca-gapless-grid .lvca-twelvecol {
+    width: calc(100%);
+    float: left;
+    margin-left: 0px; } }
+@media only screen and (min-width: 801px) {
+  .lvca-gapless-grid .lvca-onefifth {
+    width: calc(20%);
+    float: left;
+    margin-left: 0px; } }
+
+/* --------------- Flexslider Styles -------------- */
+.lvca-container .lvca-flex-direction-nav {
+  padding: 0 !important;
+  margin: 0 !important; }
+.lvca-container .lvca-flex-direction-nav li {
+  position: initial; }
+.lvca-container .lvca-flex-direction-nav a, .lvca-container .lvca-flex-direction-nav a:hover {
+  opacity: 1;
+  text-shadow: none;
+  background: none;
+  color: #888;
+  font-family: 'lvca-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 24px;
+  width: 28px;
+  height: 28px;
+  margin: -14px 0 0;
+  bottom: initial;
+  left: initial;
+  right: initial;
+  top: 50%;
+  text-indent: 0;
+  text-align: center;
+  color: #aaa;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  outline: none; }
+  .lvca-container .lvca-flex-direction-nav a:before, .lvca-container .lvca-flex-direction-nav a:hover:before, .lvca-container .lvca-flex-direction-nav a:hover:before, .lvca-container .lvca-flex-direction-nav a:hover:hover:before {
+    margin: 2px;
+    vertical-align: middle;
+    display: inline;
+    font-family: inherit !important;
+    opacity: 1; }
+  .lvca-container .lvca-flex-direction-nav a:hover, .lvca-container .lvca-flex-direction-nav a:hover:hover {
+    color: #888; }
+  .lvca-dark-bg .lvca-container .lvca-flex-direction-nav a, .lvca-dark-bg .lvca-container .lvca-flex-direction-nav a:hover {
+    color: #888; }
+    .lvca-dark-bg .lvca-container .lvca-flex-direction-nav a:hover, .lvca-dark-bg .lvca-container .lvca-flex-direction-nav a:hover:hover {
+      color: #aaa; }
+  @media only screen and (max-width: 960px) {
+    .lvca-container .lvca-flex-direction-nav a, .lvca-container .lvca-flex-direction-nav a:hover {
+      display: none;
+      /* Let users navigate via touch */ } }
+.lvca-container .lvca-flex-direction-nav a.lvca-flex-prev {
+  left: -30px; }
+  .lvca-container .lvca-flex-direction-nav a.lvca-flex-prev:before {
+    content: "\e900"; }
+.lvca-container .lvca-flex-direction-nav a.lvca-flex-next {
+  right: -30px; }
+  .lvca-container .lvca-flex-direction-nav a.lvca-flex-next:before {
+    content: "\e901"; }
+.lvca-container .lvca-flex-control-nav {
+  width: 100%;
+  position: absolute;
+  bottom: -40px;
+  text-align: center;
+  padding: 0 !important;
+  margin: 0 !important; }
+  .lvca-container .lvca-flex-control-nav li, .lvca-container .lvca-flex-control-nav li:hover {
+    margin: 0 8px 0 0;
+    padding: 0;
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+  .lvca-container .lvca-flex-control-nav li a, .lvca-container .lvca-flex-control-nav li a:hover {
+    background: #aaa;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+    display: inline-block;
+    vertical-align: middle;
+    outline: none; }
+    .lvca-dark-bg .lvca-container .lvca-flex-control-nav li a, .lvca-dark-bg .lvca-container .lvca-flex-control-nav li a:hover {
+      background: #ccc;
+      border-color: #ccc; }
+  .lvca-container .lvca-flex-control-nav li a.lvca-flex-active, .lvca-container .lvca-flex-control-nav li a:hover.lvca-flex-active, .lvca-container .lvca-flex-control-nav li a:hover {
+    background: none; }
+  .lvca-container .lvca-flex-control-nav li a.lvca-flex-active, .lvca-container .lvca-flex-control-nav li a:hover.lvca-flex-active {
+    width: 14px;
+    height: 14px; }
+
+/* Sleek Carousel Styles */
+.slick-loading .slick-list {
+  background: #fff url("./ajax-loader.gif") center center no-repeat; }
+
+.lvca-container button.slick-prev, .lvca-container button.slick-next {
+  position: absolute;
+  opacity: 1;
+  text-shadow: none;
+  background: none !important;
+  border: none;
+  padding: 0;
+  color: #888;
+  font-family: 'lvca-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 24px;
+  width: 28px;
+  height: 28px;
+  margin: -14px 0 0;
+  bottom: initial;
+  left: initial;
+  right: initial;
+  top: 50%;
+  text-indent: 0;
+  text-align: center;
+  color: #aaa !important;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  overflow: hidden;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none; }
+  .lvca-container button.slick-prev:before, .lvca-container button.slick-next:before {
+    margin: 2px;
+    vertical-align: middle; }
+  .lvca-container button.slick-prev:hover, .lvca-container button.slick-next:hover {
+    color: #888 !important; }
+  .lvca-dark-bg .lvca-container button.slick-prev, .lvca-dark-bg .lvca-container button.slick-next {
+    color: #888 !important; }
+    .lvca-dark-bg .lvca-container button.slick-prev:hover, .lvca-dark-bg .lvca-container button.slick-next:hover {
+      color: #aaa !important;
+      background: none !important; }
+  @media only screen and (max-width: 1024px) {
+    .lvca-container button.slick-prev, .lvca-container button.slick-next {
+      display: none !important;
+      /* Let users navigate via touch */ } }
+.lvca-container button.slick-prev {
+  left: -40px; }
+  .lvca-container button.slick-prev:before {
+    content: "\e900"; }
+.lvca-container button.slick-next {
+  right: -40px; }
+  .lvca-container button.slick-next:before {
+    content: "\e901"; }
+.lvca-container ul.slick-dots {
+  width: 100%;
+  position: absolute;
+  bottom: -30px;
+  text-align: center;
+  padding: 0 !important;
+  margin: 0 !important; }
+  .lvca-container ul.slick-dots li {
+    margin: 0 8px 0 0 !important;
+    padding: 0 !important;
+    display: inline-block;
+    font-size: 0; }
+  .lvca-container ul.slick-dots li button {
+    padding: 0;
+    background: #aaa;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-transition: background 0.3s ease-in-out 0s;
+    transition: background 0.3s ease-in-out 0s;
+    font-size: 0;
+    outline: none; }
+    .lvca-dark-bg .lvca-container ul.slick-dots li button {
+      background: #888 !important;
+      border-color: #888 !important; }
+  .lvca-container ul.slick-dots li button:hover, .lvca-container ul.slick-dots li.slick-active button {
+    background: none !important;
+    border-color: #aaa !important; }
+  .lvca-container ul.slick-dots li.slick-active button {
+    width: 14px;
+    height: 14px; }
+
+/* -------- Widget separator headline ------------ */
+.lvca-widget-heading {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  clear: none;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center; }
+  @media only screen and (max-width: 767px) {
+    .lvca-widget-heading {
+      font-size: 32px;
+      line-height: 44px; } }
+
+/* -------- Spacer styling ----------- */
+.lvca-spacer {
+  clear: both; }
+
+/*# sourceMappingURL=lvca-frontend.css.map */

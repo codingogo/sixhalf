@@ -1,0 +1,5 @@
+5096.629 (1) Opened log file at time: Mon, 11 Sep 2017 10:39:09 +0000 on http://sixandahalf.co
+5096.630 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.0p1 (apache2handler, Linux uws7-016.cafe24.com 3.10.0-514.21.2.el7.x86_64 #1 SMP Tue Jun 20 12:24:47 UTC 2017 x86_64) MySQL: 10.1.13 WPLANG: ko_KR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 66.5M | 56M) multisite: N openssl: OpenSSL 1.0.2d 9 Jul 2015 mcrypt: Y LANG: ko_KR.UTF-8 ZipArchive::addFile: Y
+5096.631 (1) Free space on disk containing Updraft's temporary directory: 535750.3 MB
+5096.634 (1) Backup run: resumption=1, nonce=8880a5a48fd2, begun at=1505121253 (5096s ago), job type=backup, previous check-in=198.4s
+5096.635 (1) Terminate: This backup job is already finished (1).

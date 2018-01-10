@@ -1,0 +1,499 @@
+@import "bourbon";
+@import "neat";
+@import "grid-settings";
+@import "lvca-lib";
+
+/* --------------- Reset styles --------- */
+
+.lvca-container, .lvca-grid-container {
+  ol, ul, ol > li, ul > li, ol:hover, ul:hover, ul > li:hover, ol > li:hover, ol > li > a, ul > li > a, ol > li > a:hover, ul > li > a:hover, img {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    list-style: none;
+    background: none;
+    &:before, &:after {
+      display: none;
+      }
+    }
+  a {
+    text-decoration: initial;
+    }
+  img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    }
+  }
+/* ------- General styles ------------ */
+
+.lvca-container {
+  @include lvca-container;
+  margin-left: auto;
+  margin-right: auto;
+  }
+.panel-grid .widget {
+  border: 0;
+  }
+.lvca-center {
+  text-align: center;
+  }
+.lvca-grid-container {
+  @include grid-container;
+  @include grid-collapse();
+
+  .lvca-onecol, .lvca-twocol, .lvca-threecol, .lvca-fourcol, .lvca-fivecol, .lvca-sixcol, .lvca-sevencol, .lvca-eightcol, .lvca-ninecol, .lvca-tencol, .lvca-elevencol, .lvca-twelvecol {
+    min-height: 1px; /* Prevents columns from collapsing when housing absolute elements or when lazy loading content */
+    }
+
+  .lvca-onecol, .lvca-twocol {
+    @include grid-column(1, $lvca-mobile-grid);
+    }
+
+  .lvca-threecol, .lvca-fourcol, .lvca-fivecol, .lvca-sixcol, .lvca-sevencol, .lvca-eightcol, .lvca-ninecol, .lvca-tencol, .lvca-elevencol, .lvca-twelvecol {
+    @include grid-column(2, $lvca-mobile-grid);
+    }
+
+  @include grid-media($lvca-mobile-only-grid) {
+
+    .lvca-onecol, .lvca-twocol {
+      @include omega(2n);
+      }
+    }
+
+  @include grid-media($lvca-tablet-grid) {
+
+    .lvca-onecol, .lvca-twocol {
+      @include grid-column(2);
+      }
+
+    .lvca-threecol, .lvca-fourcol, .lvca-fivecol, .lvca-sixcol, .lvca-sevencol, .lvca-eightcol, .lvca-ninecol {
+      @include grid-column(3);
+      }
+
+    .lvca-tencol, .lvca-elevencol {
+      @include grid-column(4);
+      }
+
+    .lvca-twelvecol {
+      @include grid-column(6);
+      }
+    }
+
+  @include grid-media($lvca-tablet-only-grid) {
+
+    .lvca-onecol, .lvca-twocol {
+      @include omega(3n);
+      }
+
+    .lvca-threecol, .lvca-fourcol, .lvca-fivecol, .lvca-sixcol, .lvca-sevencol, .lvca-eightcol, .lvca-ninecol {
+      @include omega(2n);
+      }
+    }
+
+  @include grid-media($lvca-desktop-grid) {
+
+    .lvca-onecol {
+      @include grid-column(1);
+      @include omega(12n);
+      }
+
+    .lvca-twocol {
+      @include grid-column(2);
+      @include omega(6n);
+      }
+
+    .lvca-threecol {
+      @include grid-column(3);
+      @include omega(4n);
+      }
+
+    .lvca-fourcol {
+      @include grid-column(4);
+      @include omega(3n);
+      }
+
+    .lvca-fivecol {
+      @include grid-column(5);
+      }
+
+    .lvca-sixcol {
+      @include grid-column(6);
+      @include omega(2n);
+      }
+
+    .lvca-sevencol {
+      @include grid-column(7);
+      }
+
+    .lvca-eightcol {
+      @include grid-column(8);
+      }
+
+    .lvca-ninecol {
+      @include grid-column(9);
+      }
+
+    .lvca-tencol {
+      @include grid-column(10);
+      }
+
+    .lvca-elevencol {
+      @include grid-column(11);
+      }
+
+    .lvca-twelvecol {
+      @include grid-column(12);
+      }
+    }
+
+  }
+/*--------- Support for 5 column grid ----*/
+
+.lvca-grid-container {
+
+  .lvca-onefifth {
+    min-height: 1px;
+    }
+
+  .lvca-onefifth {
+    @include grid-column(2, $lvca-mobile-grid);
+    }
+
+  @include grid-media($lvca-tablet-grid) {
+
+    .lvca-onefifth {
+      @include grid-column(3);
+      }
+
+    }
+  @include grid-media($lvca-tablet-only-grid) {
+
+    .lvca-onefifth {
+      @include omega(2n);
+      }
+
+    }
+
+  @include grid-media($lvca-five-col-grid) {
+
+    .lvca-onefifth {
+      @include grid-column(1);
+      @include omega(5n);
+      }
+    }
+  }
+
+/*--------- Gapless grid columns ----*/
+
+.lvca-gapless-grid {
+
+  &.lvca-grid-container, & .lvca-grid-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+    }
+
+  .lvca-onecol, .lvca-twocol {
+    @include grid-column(1, $lvca-gapless-mobile-grid);
+    }
+
+  .lvca-threecol, .lvca-fourcol, .lvca-fivecol, .lvca-sixcol, .lvca-sevencol, .lvca-eightcol, .lvca-ninecol, .lvca-tencol, .lvca-elevencol, .lvca-twelvecol, .lvca-onefifth {
+    @include grid-column(2, $lvca-gapless-mobile-grid);
+    }
+
+  @include grid-media($lvca-gapless-tablet-grid) {
+
+    .lvca-onecol, .lvca-twocol {
+      @include grid-column(2);
+      }
+
+    .lvca-threecol, .lvca-fourcol, .lvca-fivecol, .lvca-sixcol, .lvca-sevencol, .lvca-eightcol, .lvca-ninecol, .lvca-onefifth {
+      @include grid-column(3);
+      }
+
+    .lvca-tencol, .lvca-elevencol {
+      @include grid-column(4);
+      }
+
+    .lvca-twelvecol {
+      @include grid-column(6);
+      }
+    }
+
+  @include grid-media($lvca-gapless-desktop-grid) {
+
+    .lvca-onecol {
+      @include grid-column(1);
+      }
+
+    .lvca-twocol {
+      @include grid-column(2);
+      }
+
+    .lvca-threecol {
+      @include grid-column(3);
+      }
+
+    .lvca-fourcol {
+      @include grid-column(4);
+      }
+
+    .lvca-fivecol {
+      @include grid-column(5);
+      }
+
+    .lvca-sixcol {
+      @include grid-column(6);
+      }
+
+    .lvca-sevencol {
+      @include grid-column(7);
+      }
+
+    .lvca-eightcol {
+      @include grid-column(8);
+      }
+
+    .lvca-ninecol {
+      @include grid-column(9);
+      }
+
+    .lvca-tencol {
+      @include grid-column(10);
+      }
+
+    .lvca-elevencol {
+      @include grid-column(11);
+      }
+
+    .lvca-twelvecol {
+      @include grid-column(12);
+      }
+    }
+  
+  @include grid-media($lvca-gapless-five-col-grid) {
+
+    .lvca-onefifth {
+      @include grid-column(1);
+      }
+    }
+  }
+
+/* --------------- Flexslider Styles -------------- */
+
+.lvca-container {
+  .lvca-flex-direction-nav {
+    padding: 0 !important;
+    margin: 0 !important;
+    }
+  .lvca-flex-direction-nav li {
+    position: initial;
+    }
+  .lvca-flex-direction-nav a, .lvca-flex-direction-nav a:hover {
+    opacity: 1;
+    text-shadow: none;
+    background: none;
+    color: #888;
+    @include lvca-icon-font();
+    font-size: 24px;
+    width: 28px;
+    height: 28px;
+    margin: -14px 0 0;
+    bottom: initial;
+    left: initial;
+    right: initial;
+    top: 50%;
+    text-indent: 0;
+    text-align: center;
+    color: #aaa;
+    transition: all 0.3s ease-in-out 0s;
+    outline: none;
+    &:before, &:hover:before {
+      margin: 2px;
+      vertical-align: middle;
+      display: inline;
+      font-family: inherit !important;
+      opacity: 1;
+      }
+    &:hover {
+      color: #888;
+      }
+    .lvca-dark-bg & {
+      color: #888;
+      &:hover {
+        color: #aaa;
+        }
+      }
+    @include respond-to-max(960) {
+      display: none; /* Let users navigate via touch */
+      }
+    }
+  .lvca-flex-direction-nav a.lvca-flex-prev {
+    left: -30px;
+    &:before {
+      content: "\e900";
+      }
+    }
+  .lvca-flex-direction-nav a.lvca-flex-next {
+    right: -30px;
+    &:before {
+      content: "\e901";
+      }
+    }
+  .lvca-flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+    text-align: center;
+    padding: 0 !important;
+    margin: 0 !important;
+    li, li:hover {
+      margin: 0 8px 0 0;
+      padding: 0;
+      border: none;
+      box-shadow: none;
+      }
+    li a, li a:hover {
+      background: #aaa;
+      border: 1px solid #aaa;
+      border-radius: 50%;
+      width: 12px;
+      height: 12px;
+      box-shadow: none;
+      transition: all 0.2s ease-in 0s;
+      display: inline-block;
+      vertical-align: middle;
+      outline: none;
+      .lvca-dark-bg & {
+        background: #ccc;
+        border-color: #ccc;
+        }
+      }
+    li a.lvca-flex-active, li a:hover.lvca-flex-active, li a:hover {
+      background: none;
+      }
+    li a.lvca-flex-active, li a:hover.lvca-flex-active {
+      width: 14px;
+      height: 14px;
+      }
+    }
+  }
+/* Sleek Carousel Styles */
+
+.slick-loading .slick-list {
+  background: #fff url('./ajax-loader.gif') center center no-repeat;
+  }
+.lvca-container {
+
+  button.slick-prev, button.slick-next {
+    position: absolute;
+    opacity: 1;
+    text-shadow: none;
+    background: none !important;
+    border: none;
+    padding: 0;
+    color: #888;
+    @include lvca-icon-font();
+    font-size: 24px;
+    width: 28px;
+    height: 28px;
+    margin: -14px 0 0;
+    bottom: initial;
+    left: initial;
+    right: initial;
+    top: 50%;
+    text-indent: 0;
+    text-align: center;
+    color: #aaa !important;
+    transition: all 0.3s ease-in-out 0s;
+    overflow: hidden;
+    box-shadow: none;
+    outline: none;
+    &:before {
+      margin: 2px;
+      vertical-align: middle;
+      }
+    &:hover {
+      color: #888 !important;
+      }
+    .lvca-dark-bg & {
+      color: #888 !important;
+      &:hover {
+        color: #aaa !important;
+        background: none !important;
+        }
+      }
+    @include respond-to-max(1024) {
+      display: none !important; /* Let users navigate via touch */
+      }
+    }
+  button.slick-prev {
+    left: -40px;
+    &:before {
+      content: "\e900";
+      }
+    }
+  button.slick-next {
+    right: -40px;
+    &:before {
+      content: "\e901";
+      }
+    }
+  ul.slick-dots {
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+    text-align: center;
+    padding: 0 !important;
+    margin: 0 !important;
+    li {
+      margin: 0 8px 0 0 !important;
+      padding: 0 !important;
+      display: inline-block;
+      font-size: 0;
+      }
+    li button {
+      padding: 0;
+      background: #aaa;
+      border: 1px solid #aaa;
+      border-radius: 50%;
+      width: 12px;
+      height: 12px;
+      box-shadow: none;
+      transition: background 0.3s ease-in-out 0s;
+      font-size: 0;
+      outline: none;
+      .lvca-dark-bg & {
+        background: #888 !important;
+        border-color: #888 !important;
+        }
+      }
+    li button:hover, li.slick-active button {
+      background: none !important;
+      border-color: #aaa !important;
+      }
+    li.slick-active button {
+      width: 14px;
+      height: 14px;
+      }
+    }
+  }
+/* -------- Widget separator headline ------------ */
+
+.lvca-widget-heading {
+  @include lvca-heading-style();
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  @include respond-to-max(767) {
+    font-size: 32px;
+    line-height: 44px;
+    }
+  }
+/* -------- Spacer styling ----------- */
+
+.lvca-spacer {
+  clear: both;
+  }

@@ -1,0 +1,64 @@
+$neat-grid: (
+        columns: 12,
+        gutter: 20px,
+        direction: ltr,
+);
+
+$lvca-desktop-grid: (
+        columns: 12,
+        gutter: 20px,
+        media: 801px,
+);
+
+$lvca-tablet-grid: (
+        columns: 6,
+        gutter: 20px,
+        media: 480px,
+);
+
+$lvca-mobile-grid: (
+        columns: 2,
+        gutter: 20px,
+);
+
+
+$lvca-gapless-grid: (
+        gutter: 0px,
+);
+
+$lvca-gapless-desktop-grid: (
+        columns: 12,
+        gutter: 0px,
+        media: 801px,
+);
+
+$lvca-gapless-tablet-grid: (
+        columns: 6,
+        gutter: 0px,
+        media: 480px,
+);
+
+$lvca-gapless-mobile-grid: (
+        columns: 2,
+        gutter: 0px,
+);
+
+$lvca-five-col-grid: (
+        columns: 5,
+        gutter: 20px,
+        media: 801px,
+);
+
+$lvca-gapless-five-col-grid: (
+        columns: 5,
+        gutter: 0px,
+        media: 801px,
+);
+
+$lvca-mobile-only-grid: (
+        media: "(max-width: 479px)",
+);
+
+$lvca-tablet-only-grid: (
+        media: "(min-width:480px) and (max-width: 800px)",
+);
